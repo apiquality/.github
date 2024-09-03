@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/stoplightio/.github/master/profile/assets/logo-apiquality-principal.png)
+![](https://raw.githubusercontent.com/apiquality/.github/master/profile/assets/logo-apiquality-principal.png)
 
 # About APIQuality
 One platform to governance apis and people. The unique platorm apiops lowcode. Design your api first cycle as a visual design, implement apiops and get visual scoring and reports. Collaborate with all roles (api evangelist, api tester, api owner, api design, api security architect, api security tester.. in one tool)

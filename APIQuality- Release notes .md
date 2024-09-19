@@ -5,43 +5,6 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-
-**Release notes** 
-
-\- APIQuality \-
-
- **Agosto 2024**
-
-| Versión | Autor | Fecha | Cambios |
-| :---- | :---- | :---- | :---- |
-| v2.0.0 | [Sonia Diaz Mingo](mailto:diazmingo.sonia@gmail.com) | 30/08/24 | Documento inicial |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-
-**Índice**
-
-[1\. v2.0.0	3](\#1.-v2.0.0)
-
-[1.1. Obtener información de los resultados de la interfaz	3](\#1.1.-obtener-información-de-los-resultados-de-la-interfaz)
-
-[1.2. Mostrar el histórico de ejecuciones directamente en APIQuality	3](\#1.2.-mostrar-el-histórico-de-ejecuciones-directamente-en-apiquality)
-
-[1.3. Cambiar los nombres de openapi y de repositorio	4](\#1.3.-cambiar-los-nombres-de-openapi-y-de-repositorio)
-
-[1.4. Definir las ramas a nivel de organización	5](\#1.4.-definir-las-ramas-a-nivel-de-organización)
-
-[1.5. Generación de openapi en un sólo documento	6](\#1.5.-generación-de-openapi-en-un-sólo-documento)
-
-[1.6. Añadir el nombre de usuario en los commits a los repositorios	7](\#1.6.-añadir-el-nombre-de-usuario-en-los-commits-a-los-repositorios)
-
-[1.7. Login con SAML	8](\#1.7.-login-con-saml)
-
-[**1.8. Otras mejoras:	8**](\#1.8.-otras-mejoras:)
-
-[1.9. Bugs resueltos	8](\#1.9.-bugs-resueltos)  
  
 
 #  {#1.8.-otras-mejoras:}

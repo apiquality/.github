@@ -38,8 +38,30 @@ A sample of the organizations using in the wild:
 
 
 ## Releases
-There are a release for each tow weeks
-The last release 
+The last release (2.2):
+### Get information stages directly from APIquality
+### Show the historical executions 
+### Allow change the openapi file
+### Define global branches
+### Generate unified openapi including external refs
+### Adds the user name in commits
+### Login with SAML
+
+
+## Roadmap
+The next releases are:
+
+### v2.3 Quality release (dec 2024)
+- Create openapi2insomnia and integrate automatic tests
+- Create insomnia plugin to API Quality
+- Coverage API testing
+- Use case testing
+- Integrate clients devportal from principal market API Managers.
+
+### v3.0 Design release (Mar 2025)
+- Create Visual DDD  (the resources will be design separately) and modify the api design similar 
+- APIquality VSCODE plugin. 
+- Apigen visual UI to mapping database
 
 ## Features and bugs
 You can requests features by github and put bugs to resolve then in github

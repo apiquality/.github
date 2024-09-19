@@ -39,13 +39,13 @@ A sample of the organizations using in the wild:
 
 ## Releases
 The last release (2.2):
-### Get information stages directly from APIquality
-### Show the historical executions 
-### Allow change the openapi file
-### Define global branches
-### Generate unified openapi including external refs
-### Adds the user name in commits
-### Login with SAML
+- Get information stages directly from APIquality
+- Show the historical executions 
+- Allow change the openapi file
+- Define global branches
+- Generate unified openapi including external refs
+- Adds the user name in commits
+- Login with SAML
 
 
 ## Roadmap

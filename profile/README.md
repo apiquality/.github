@@ -81,8 +81,8 @@ There are a list of apitools that apiquality integrate:
 | [sonar-openapi](https://github.com/apiaddicts/sonar-openapi)  | Code analyzer for OpenAPI specifications  |
 | [dosonarapi](https://github.com/apiaddicts/dosonarapi)  | Code analyzer for OpenAPI specifications |
 | [redocly-cli](https://github.com/Redocly/redocly-cli)  | Redocly linter  |
-| [microcks]([https://github.com/Redocly/redocly-cli](https://github.com/microcks/microcks))  | Mocks the APIs  |
-| [SonarQube]([https://github.com/SonarSource/sonarqube))  | Validate the quality for APIs  |
+| [microcks](https://github.com/microcks/microcks)  | Mocks the APIs  |
+| [SonarQube]([https://github.com/SonarSource/sonarqube)  | Validate the quality for APIs  |
 | [Spectral](https://github.com/stoplightio/spectral)  | Validate the quality for APIs  |
 
 

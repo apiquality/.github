@@ -67,7 +67,25 @@ The next releases are:
 You can requests features by github and put bugs to resolve then in github
 
 ## Support
-There are a public support in own disccord channel
+There are a enterprise support and 
+
+# 🛠️ Tools
+There are a list of apitools that apiquality integrate:
+
+   | 🎁 Tool  | 📚 Description | 🤖 Technology |
+|---|---|---|
+| [apigen.springboot](https://github.com/apiaddicts/apigen.springboot/)  | Generate an archetype of the springboot framework using the openapi file |
+| [apigen.net](https://github.com/apiaddicts/apigen.net/)  | Generate an archetype of the asp.net framework using the openapi file  |
+| [openapi2postman](https://github.com/apiaddicts/openapi2postman)  | Creates automatic tests from Openapi 3.0 using postman format |
+| [openapi2soapui](https://github.com/apiaddicts/openapi2soapui)  | Generate a SoapUI project from an OpenAPI Specification |
+| [sonar-openapi](https://github.com/apiaddicts/sonar-openapi)  | Code analyzer for OpenAPI specifications  |
+| [dosonarapi](https://github.com/apiaddicts/dosonarapi)  | Code analyzer for OpenAPI specifications |
+| [redocly-cli](https://github.com/Redocly/redocly-cli)  | Redocly linter  |
+| [microcks]([https://github.com/Redocly/redocly-cli](https://github.com/microcks/microcks))  | Mocks the APIs  |
+| [SonarQube]([https://github.com/SonarSource/sonarqube))  | Validate the quality for APIs  |
+| [Spectral](https://github.com/stoplightio/spectral)  | Validate the quality for APIs  |
+
+
 
 ### [Learn more about APIQuality](https://apiquality.io)
 

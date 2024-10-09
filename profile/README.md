@@ -38,14 +38,16 @@ A sample of the organizations using in the wild:
 
 
 ## Releases
-The last release (2.2):
-- Get information stages directly from APIquality
-- Show the historical executions 
-- Allow change the openapi file
-- Define global branches
-- Generate unified openapi including external refs
-- Adds the user name in commits
-- Login with SAML
+The last release (2.1):
+- Deploy in Wso2 with api.yaml
+- Add automatically the mock server in to the openapi
+- Create blocked stages in de deployment
+- Securize mock requests in microcks
+- Create a styles guide assistant to create a new style guide
+- Generate resolved openapi with external references in json and yaml format
+- Generate the openapi documentation in the apiquality tool
+- Add domain to opportunities
+- New linter (redocly) in the apiops process
 
 
 ## Roadmap

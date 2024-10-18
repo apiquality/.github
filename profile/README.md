@@ -53,17 +53,36 @@ The last release (2.1):
 ## Roadmap
 The next releases are:
 
-### v2.3 Quality release (dec 2024)
-- Create openapi2insomnia and integrate automatic tests
-- Create insomnia plugin to API Quality
-- Coverage API testing
-- Use case testing
-- Integrate clients devportal from principal market API Managers.
+### v2.3 Security release (dec 2024)
+- Use spectral as alternative doSonarAPI
+- Integrate with OWASP Zap to scan api vulnerabilities
+- Deploy API Portal without API Managers
+- Deploy all cycle in Tyk and ApigeeX
+- Create APIs using IA
 
-### v3.0 Design release (Mar 2025)
-- Create Visual DDD  (the resources will be design separately) and modify the api design similar 
-- APIquality VSCODE plugin. 
+### v3.0 Statistics release (Mar 2025)
+- Deploy API Portal with AWS API Gateway
+- Deploy in IBM, AWS API Gateway and Mulesoft
+- Create tests APIs using IA
+- Show statistics API from ELK
+
+### v3.1 Products release (Jun 2025)
+- Add products support
+- Connect With Github
+- Deploy API Portal with AWS Kong
+- Add portman to generate tests
+- Add AsyncAPI support 
+
+### v3.2 Central catalog release (Sept 2025)
+- Create a intelligent central catalog to reuse in APIs
+- Deploy API Portal with AWS Tyk
+- Create visual studio plugin
+
+### v3.4 Graphql release (Dec 2025)
 - Apigen visual UI to mapping database
+- Add Graphql support
+- Create openapi2insomnia and integrate automatic tests
+
 
 ## Features and bugs
 You can requests features by github and put bugs to resolve then in github

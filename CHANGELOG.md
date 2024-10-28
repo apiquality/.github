@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.2] - 2024-10-30
+
+- Create spectral file with sonarapi rules
+- Create contract tests in postman with on click
+- View the mocks in apiquality
+- Create environment profiles with different cycle of APIOps
+
 ## [2.1] - 2024-10-04
 - Deploy in Wso2 with api.yaml
 - Add automatically the mock server in to the openapi

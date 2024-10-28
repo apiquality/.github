@@ -38,22 +38,16 @@ A sample of the organizations using in the wild:
 
 
 ## Releases
-The last release (2.1):
-- Deploy in Wso2 with api.yaml
-- Add automatically the mock server in to the openapi
-- Create blocked stages in de deployment
-- Securize mock requests in microcks
-- Create a styles guide assistant to create a new style guide
-- Generate resolved openapi with external references in json and yaml format
-- Generate the openapi documentation in the apiquality tool
-- Add domain to opportunities
-- New linter (redocly) in the apiops process
-
+The last release (2.2):
+- Create spectral file with sonarapi rules
+- Create contract tests in  postman with on click
+- View the mocks in apiquality
+- Create environment profiles with different cycle of APIOps
 
 ## Roadmap
 The next releases are:
 
-### v2.3 Security release (dec 2024)
+### v2.3 (dec 2024)
 - Use spectral as alternative doSonarAPI
 - Integrate with OWASP Zap to scan api vulnerabilities
 - Deploy API Portal without API Managers

@@ -43,6 +43,7 @@ The last release (2.2):
 - Create contract tests in  postman with on click
 - View the mocks in apiquality
 - Create environment profiles with different cycle of APIOps
+- Notifications system for Domain and APIs
 
 ## Roadmap
 The next releases are:

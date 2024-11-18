@@ -38,22 +38,20 @@ A sample of the organizations using in the wild:
 
 
 ## Releases
-The last release (2.2):
-- Create spectral file with sonarapi rules
-- Create contract tests in  postman with on click
-- View the mocks in apiquality
-- Create environment profiles with different cycle of APIOps
-- Notifications system for Domain and APIs
-
+### v2.3 (nov 2024)
+- Create APIs using IA
+- Add followers to APIs and domains to get notifications
+- Move APis between domains
+- Add retrocompatibiliy stage
+  
 ## Roadmap
 The next releases are:
 
-### v2.3 (dec 2024)
+### v2.4 (dec 2024)
 - Use spectral as alternative doSonarAPI
 - Integrate with OWASP Zap to scan api vulnerabilities
 - Deploy API Portal without API Managers
 - Deploy all cycle in Tyk and ApigeeX
-- Create APIs using IA
 
 ### v3.0 Statistics release (Mar 2025)
 - Deploy API Portal with AWS API Gateway
@@ -100,7 +98,7 @@ There are a list of apitools that apiquality integrate:
 | [microcks](https://github.com/microcks/microcks)  | Mocks the APIs  |
 | [SonarQube]([https://github.com/SonarSource/sonarqube)  | Validate the quality for APIs  |
 | [Spectral](https://github.com/stoplightio/spectral)  | Validate the quality for APIs  |
-
+| [Openapidiff](https://github.com/OpenAPITools/openapi-diff)  | Check backward compatibility between versions |
 
 
 ### [Learn more about APIQuality](https://apiquality.io)

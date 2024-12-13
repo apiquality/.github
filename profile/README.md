@@ -38,16 +38,18 @@ A sample of the organizations using in the wild:
 
 
 ## Releases
-### v2.3 (nov 2024)
-- Create APIs using IA
-- Add followers to APIs and domains to get notifications
-- Move APis between domains
-- Add retrocompatibiliy stage
+### v2.5 (dic 2024)
+- Improve the IA APis using api template
+- Add properties to domain
+- Deploy in Wso2 with a graphical mode
+- Add  success and wrong properties to openapi2postman
+- Reconfigure the screens for linking third parties components.
+- New spectral rules implementation (OAR076) and get better configuration
   
 ## Roadmap
 The next releases are:
 
-### v2.4 (dec 2024)
+### v2.6 (Feb 2025)
 - Use spectral as alternative doSonarAPI
 - Integrate with OWASP Zap to scan api vulnerabilities
 - Deploy API Portal without API Managers

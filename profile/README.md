@@ -38,18 +38,18 @@ A sample of the organizations using in the wild:
 
 
 ## Releases
-### v2.5 (dic 2024)
-- Improve the IA APis using api template
-- Add properties to domain
-- Deploy in Wso2 with a graphical mode
-- Add  success and wrong properties to openapi2postman
-- Reconfigure the screens for linking third parties components.
-- New spectral rules implementation (OAR076) and get better configuration
+### v2.7 (Feb 2025)
+- Display of the APi file
+- Configuration parameter of the online validator with spectral
+- Newman's execution history
+- New API download option in api display screen
+- New quality testing step after deployments
+- New sonarapi-rules implemented
   
 ## Roadmap
 The next releases are:
 
-### v2.6 (Feb 2025)
+### v2.8 (Mar 2025)
 - Use spectral as alternative doSonarAPI
 - Integrate with OWASP Zap to scan api vulnerabilities
 - Deploy API Portal without API Managers
@@ -78,12 +78,11 @@ The next releases are:
 - Add Graphql support
 - Create openapi2insomnia and integrate automatic tests
 
-
 ## Features and bugs
 You can requests features by github and put bugs to resolve then in github
 
 ## Support
-There are a enterprise support and 
+There are a enterprise support 
 
 # 🛠️ Tools
 There are a list of apitools that apiquality integrate:

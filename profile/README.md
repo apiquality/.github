@@ -38,37 +38,38 @@ A sample of the organizations using in the wild:
 
 
 ## Releases
-### v2.7 (Feb 2025)
-- Display of the APi file
-- Configuration parameter of the online validator with spectral
-- Newman's execution history
-- New API download option in api display screen
-- New quality testing step after deployments
-- New sonarapi-rules implemented
+### v2.8 (27 Feb 2025)
+
+- Order environments to control uploads between environments
+- New filter to opportunities / context apis
+- New simple paths designer in the opportunities screen 
+- Redesign the api environment screen adding properties tab and audit tab. This properties can be used in pipelines.
+- New api security definition rating in the ratings screen
+- New options to create tests (minimal tests, validate output schema, host pattern and new tests for anyOf, oneOf) 
   
 ## Roadmap
 The next releases are:
 
-### v2.8 (Mar 2025)
+### v3.0 (Mar 2025)
 - Use spectral as alternative doSonarAPI
 - Integrate with OWASP Zap to scan api vulnerabilities
 - Deploy API Portal without API Managers
 - Deploy all cycle in Tyk and ApigeeX
 
-### v3.0 Statistics release (Mar 2025)
+### v3.1 Statistics release (Mar 2025)
 - Deploy API Portal with AWS API Gateway
 - Deploy in IBM, AWS API Gateway and Mulesoft
 - Create tests APIs using IA
 - Show statistics API from ELK
 
-### v3.1 Products release (Jun 2025)
+### v3.2 Products release (Jun 2025)
 - Add products support
 - Connect With Github
 - Deploy API Portal with AWS Kong
 - Add portman to generate tests
 - Add AsyncAPI support 
 
-### v3.2 Central catalog release (Sept 2025)
+### v3.3 Central catalog release (Sept 2025)
 - Create a intelligent central catalog to reuse in APIs
 - Deploy API Portal with AWS Tyk
 - Create visual studio plugin

@@ -38,25 +38,25 @@ A sample of the organizations using in the wild:
 
 
 ## Releases
-### v2.8 (27 Feb 2025)
 
-- Order environments to control uploads between environments
-- New filter to opportunities / context apis
-- New simple paths designer in the opportunities screen 
-- Redesign the api environment screen adding properties tab and audit tab. This properties can be used in pipelines.
-- New api security definition rating in the ratings screen
-- New options to create tests (minimal tests, validate output schema, host pattern and new tests for anyOf, oneOf) 
+### v2.9 (24 Mar 2025)
+- Tyk as new API Manager
+- Create manual and automatic executions
+- New spectral rules
   
 ## Roadmap
 The next releases are:
-
-### v3.0 (Mar 2025)
+ 
+### v3.0 (Apr 2025)
 - Use spectral as alternative doSonarAPI
 - Integrate with OWASP Zap to scan api vulnerabilities
 - Deploy API Portal without API Managers
 - Deploy all cycle in Tyk and ApigeeX
+- Create stress tests with jmeter
+- Connect With Github
 
-### v3.1 Statistics release (Mar 2025)
+### v3.1 Statistics release (May 2025)
+- Use spectral as alternative doSonarAPI
 - Deploy API Portal with AWS API Gateway
 - Deploy in IBM, AWS API Gateway and Mulesoft
 - Create tests APIs using IA
@@ -64,7 +64,6 @@ The next releases are:
 
 ### v3.2 Products release (Jun 2025)
 - Add products support
-- Connect With Github
 - Deploy API Portal with AWS Kong
 - Add portman to generate tests
 - Add AsyncAPI support 

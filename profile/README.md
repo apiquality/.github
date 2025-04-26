@@ -113,6 +113,7 @@ There are a list of Repositories that apiquality support:
 | [AzureDevops](https://azure.microsoft.com/es-es/products/devops)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|Beta version
 | [Bitbucket](https://bitbucket.org/product/)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|Supports SaaS and onpremise version, beta version
 | [Tekton](https://tekton.dev/) | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman| Integration as external tool
+| [Jenkins](https://www.jenkins.io/) | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman| Integration as external tool
 
 # 🛠️ Tools
 There are a list of apitools that apiquality integrate:

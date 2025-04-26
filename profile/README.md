@@ -91,14 +91,14 @@ There are a enterprise support
 # 🛠️ Api Managers supported
 There are a list of API Managers that apiquality integrate:
 
-   | 🎁 Tool  | 📚 url | 🤖 Support |
+   | 🎁 Tool  | Easy deploy | Import explorer | Import only | Custom stages | 📚 Comments
 |---|---|---|
-| [Apigee]([https://apigee.google.com/)  | Support import APis in Apigee |
-| [Wso2]([https://github.com/apiaddicts/apigen.net/](https://wso2.com/))  |Support easy deploy and advanced integration  |
+| [Apigee]([https://apigee.google.com/)  |  |  | X | X | The easy deploy will be available soon
+| [Wso2]((https://wso2.com/))  |X ||
 | [Tyk](http://tyk.io/)  | Using custom stages |
-| [Mulesoft]|(https://www.mulesoft.com/)) | Generate a SoapUI project from an OpenAPI Specification |
-| [sonar-openapi](https://github.com/apiaddicts/sonar-openapi)  | Code analyzer for OpenAPI specifications  |
-| [dosonarapi](https://github.com/apiaddicts/dosonarapi)  | Code analyzer for OpenAPI specifications |
+| [Mulesoft](https://www.mulesoft.com/) | Support easy deploy and import from mulesoft |
+| [IBM Api Connect](https://www.ibm.com/)  | Integration using custom stages |
+| [AWS APi Gateway](https://aws.amazon.com/es/api-gateway/)  | Code analyzer for OpenAPI specifications |
 | [redocly-cli](https://github.com/Redocly/redocly-cli)  | Redocly linter  |
 | [microcks](https://github.com/microcks/microcks)  | Mocks the APIs  |
 | [SonarQube]([https://github.com/SonarSource/sonarqube)  | Validate the quality for APIs  |

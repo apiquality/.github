@@ -91,22 +91,18 @@ There are a enterprise support
 # 🛠️ Api Managers supported
 There are a list of API Managers that apiquality integrate:
 
-   | 🎁 Tool  | Easy deploy | Import explorer | Import only | Custom stages | 📚 Comments
-|---|---|---|
-| [Apigee]([https://apigee.google.com/)  |  |  | X | X | The easy deploy will be available soon
-| [Wso2]((https://wso2.com/))  |X ||
-| [Tyk](http://tyk.io/)  | Using custom stages |
-| [Mulesoft](https://www.mulesoft.com/) | Support easy deploy and import from mulesoft |
-| [IBM Api Connect](https://www.ibm.com/)  | Integration using custom stages |
-| [AWS APi Gateway](https://aws.amazon.com/es/api-gateway/)  | Code analyzer for OpenAPI specifications |
-| [redocly-cli](https://github.com/Redocly/redocly-cli)  | Redocly linter  |
-| [microcks](https://github.com/microcks/microcks)  | Mocks the APIs  |
-| [SonarQube]([https://github.com/SonarSource/sonarqube)  | Validate the quality for APIs  |
-| [Spectral](https://github.com/stoplightio/spectral)  | Validate the quality for APIs  |
-| [Openapidiff](https://github.com/OpenAPITools/openapi-diff)  | Check backward compatibility between versions |
-| [Openapigenerator] (https://github.com/OpenAPITools/openapi-generator) | create backend code selecting different lenguages
-| [zapProxy] (https://www.zaproxy.org/) | generate and execute security tests for apis
-| [jmeter] (https://jmeter.apache.org/) | generate and execute performance tests
+   | 🎁 Tool  | Stages | Import explorer | 📚 Comments
+|---|---|---|---|
+| [Apigee]([https://apigee.google.com/)  | Import | NO | The easy configuration and import explorer will be soon. Apigee X compatibility.
+| [Wso2](https://wso2.com/) | Deploy, Synchronized, Promote environments, Initializer| NO|The import in explorer from wso2 will be soon. Supports 4.1 and 4.2 version
+| [Tyk](http://tyk.io/)  | Using custom stages | NO | The easy configuration will be soon
+| [Mulesoft](https://www.mulesoft.com/) | Easy config and deploy are available | Yes | Very soon will be available more stages
+| [IBM Api Connect](https://www.ibm.com/)  |Using custom stages|NO | In Roadmap
+| [Kong](https://konghq.com/)  | Deploy  | NO | Available for 2.X version
+| [AWS APi Gateway](https://aws.amazon.com/es/api-gateway/)  | Deploy  | NO | In Roadmap
+| [Azure API Management](https://azure.microsoft.com/es-es/products/api-management)  | Custom stages  | NO | In Roadmap
+| [Kraken](https://www.krakend.io/)  | Custom stages  | NO | In Roadmap
+
 
 # 🛠️ Tools
 There are a list of apitools that apiquality integrate:

@@ -128,12 +128,12 @@ There are a list of apitools that apiquality integrate:
 | [dosonarapi](https://github.com/apiaddicts/dosonarapi)  | Code analyzer for OpenAPI specifications |
 | [redocly-cli](https://github.com/Redocly/redocly-cli)  | Redocly linter  |
 | [microcks](https://github.com/microcks/microcks)  | Mocks the APIs  |
-| [SonarQube]([https://github.com/SonarSource/sonarqube)  | Validate the quality for APIs  |
+| [SonarQube](https://github.com/SonarSource/sonarqube)  | Validate the quality for APIs  |
 | [Spectral](https://github.com/stoplightio/spectral)  | Validate the quality for APIs  |
 | [Openapidiff](https://github.com/OpenAPITools/openapi-diff)  | Check backward compatibility between versions |
-| [Openapigenerator] (https://github.com/OpenAPITools/openapi-generator) | create backend code selecting different lenguages |
-| [zapProxy] (https://www.zaproxy.org/) | generate and execute security tests for apis|
-| [jmeter] (https://jmeter.apache.org/) | generate and execute performance tests|
+| [Openapigenerator](https://github.com/OpenAPITools/openapi-generator) | create backend code selecting different lenguages |
+| [zapProxy](https://www.zaproxy.org/) | generate and execute security tests for apis|
+| [jmeter](https://jmeter.apache.org/) | generate and execute performance tests|
 
 ### [Learn more about APIQuality](https://apiquality.io)
 

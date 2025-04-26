@@ -39,41 +39,45 @@ A sample of the organizations using in the wild:
 
 ## Releases
 
-### v2.9 (24 Mar 2025)
-- Tyk as new API Manager
-- Create manual and automatic executions
-- New spectral rules
-  
+### v2.11 (24 Apr 2025)
+- Create easy deploy for Mulesoft APIs
+- Massive import users
+- New field in context / opportunities API (instructions, calculated field, calculated text field, calculated editable field, fixed, organization properties)
+- New funcionality to create namespaces and properties in organization level
+
 ## Roadmap
 The next releases are:
  
-### v3.0 (Apr 2025)
-- Use spectral as alternative doSonarAPI
+### v3.0 (May 2025)
 - Integrate with OWASP Zap to scan api vulnerabilities
 - Deploy API Portal without API Managers
 - Deploy all cycle in Tyk and ApigeeX
 - Create stress tests with jmeter
-- Connect With Github
 
-### v3.1 Statistics release (May 2025)
+### v3.1 Statistics release (Jun 2025)
 - Use spectral as alternative doSonarAPI
 - Deploy API Portal with AWS API Gateway
-- Deploy in IBM, AWS API Gateway and Mulesoft
-- Create tests APIs using IA
+- Easy deploy for AWS API Gateway 
+- Deploy API Portal with Mulesoft
+- Create apis propousal using IA
 - Show statistics API from ELK
 
-### v3.2 Products release (Jun 2025)
-- Add products support
-- Deploy API Portal with AWS Kong
+### v3.2 AsyncAPI (Jul 2025)
+- Deploy API Portal with  Kong
+- Easy deploy for Kong
 - Add portman to generate tests
-- Add AsyncAPI support 
+- Add AsyncAPI support
 
-### v3.3 Central catalog release (Sept 2025)
+### v3.3 Products release (August 2025)
+- Add products support
+- Easy deploy for Azure API Management
+- Add portman to generate tests
+
+### v3.4 Central catalog release (Sept 2025)
 - Create a intelligent central catalog to reuse in APIs
-- Deploy API Portal with AWS Tyk
-- Create visual studio plugin
+- Easy deploy for IBM
 
-### v3.4 Graphql release (Dec 2025)
+### v3.5 Graphql release (Dec 2025)
 - Apigen visual UI to mapping database
 - Add Graphql support
 - Create openapi2insomnia and integrate automatic tests
@@ -83,6 +87,26 @@ You can requests features by github and put bugs to resolve then in github
 
 ## Support
 There are a enterprise support 
+
+# 🛠️ Api Managers supported
+There are a list of API Managers that apiquality integrate:
+
+   | 🎁 Tool  | 📚 url | 🤖 Support |
+|---|---|---|
+| [Apigee]([https://apigee.google.com/)  | Support import APis in Apigee |
+| [Wso2]([https://github.com/apiaddicts/apigen.net/](https://wso2.com/))  |Support easy deploy and advanced integration  |
+| [Tyk](http://tyk.io/)  | Using custom stages |
+| [Mulesoft]|(https://www.mulesoft.com/)) | Generate a SoapUI project from an OpenAPI Specification |
+| [sonar-openapi](https://github.com/apiaddicts/sonar-openapi)  | Code analyzer for OpenAPI specifications  |
+| [dosonarapi](https://github.com/apiaddicts/dosonarapi)  | Code analyzer for OpenAPI specifications |
+| [redocly-cli](https://github.com/Redocly/redocly-cli)  | Redocly linter  |
+| [microcks](https://github.com/microcks/microcks)  | Mocks the APIs  |
+| [SonarQube]([https://github.com/SonarSource/sonarqube)  | Validate the quality for APIs  |
+| [Spectral](https://github.com/stoplightio/spectral)  | Validate the quality for APIs  |
+| [Openapidiff](https://github.com/OpenAPITools/openapi-diff)  | Check backward compatibility between versions |
+| [Openapigenerator] (https://github.com/OpenAPITools/openapi-generator) | create backend code selecting different lenguages
+| [zapProxy] (https://www.zaproxy.org/) | generate and execute security tests for apis
+| [jmeter] (https://jmeter.apache.org/) | generate and execute performance tests
 
 # 🛠️ Tools
 There are a list of apitools that apiquality integrate:
@@ -100,7 +124,9 @@ There are a list of apitools that apiquality integrate:
 | [SonarQube]([https://github.com/SonarSource/sonarqube)  | Validate the quality for APIs  |
 | [Spectral](https://github.com/stoplightio/spectral)  | Validate the quality for APIs  |
 | [Openapidiff](https://github.com/OpenAPITools/openapi-diff)  | Check backward compatibility between versions |
-
+| [Openapigenerator] (https://github.com/OpenAPITools/openapi-generator) | create backend code selecting different lenguages
+| [zapProxy] (https://www.zaproxy.org/) | generate and execute security tests for apis
+| [jmeter] (https://jmeter.apache.org/) | generate and execute performance tests
 
 ### [Learn more about APIQuality](https://apiquality.io)
 

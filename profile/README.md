@@ -104,6 +104,12 @@ There are a list of API Managers that apiquality integrate:
 | [Kraken](https://www.krakend.io/)  | Custom stages  | NO | In Roadmap
 
 
+# 🛠️ Repositories technology support
+There are a list of Repositories that apiquality support:
+   | 🎁 Repository  | Stages Definition |Stages Mocking |Stages Contract tests |Stages Microservices |Stages API Manager |Stages Quality tests| 📚 Comments
+|---|---|---|---|
+| [GitlabCI](https://gitlab.com/)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|Supports SaaS and onpremise version
+
 # 🛠️ Tools
 There are a list of apitools that apiquality integrate:
 

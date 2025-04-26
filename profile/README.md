@@ -115,7 +115,7 @@ There are a list of Repositories that apiquality support:
 | [Tekton](https://tekton.dev/) | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman| Integration as external tool
 | [Jenkins](https://www.jenkins.io/) | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman| Integration as external tool
 
-# 🛠️ Tools
+# 🛠️ APITools
 There are a list of apitools that apiquality integrate:
 
    | 🎁 Tool  | 📚 Description | 🤖 Technology |
@@ -131,9 +131,9 @@ There are a list of apitools that apiquality integrate:
 | [SonarQube]([https://github.com/SonarSource/sonarqube)  | Validate the quality for APIs  |
 | [Spectral](https://github.com/stoplightio/spectral)  | Validate the quality for APIs  |
 | [Openapidiff](https://github.com/OpenAPITools/openapi-diff)  | Check backward compatibility between versions |
-| [Openapigenerator] (https://github.com/OpenAPITools/openapi-generator) | create backend code selecting different lenguages
-| [zapProxy] (https://www.zaproxy.org/) | generate and execute security tests for apis
-| [jmeter] (https://jmeter.apache.org/) | generate and execute performance tests
+| [Openapigenerator] (https://github.com/OpenAPITools/openapi-generator) | create backend code selecting different lenguages |
+| [zapProxy] (https://www.zaproxy.org/) | generate and execute security tests for apis|
+| [jmeter] (https://jmeter.apache.org/) | generate and execute performance tests|
 
 ### [Learn more about APIQuality](https://apiquality.io)
 

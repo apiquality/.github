@@ -108,7 +108,11 @@ There are a list of API Managers that apiquality integrate:
 There are a list of Repositories that apiquality support:
    | 🎁 Repository  | Stages Definition |Stages Mocking |Stages Contract tests |Stages Microservices |Stages API Manager |Stages Quality tests| 📚 Comments
 |---|---|---|---|---|---|---|---|
-| [GitlabCI](https://gitlab.com/)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|Supports SaaS and onpremise version
+| [Gitlab](https://gitlab.com/)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|Supports SaaS and onpremise version
+| [Github](https://github.com)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|Supports SaaS, Beta version
+| [AzureDevops](https://azure.microsoft.com/es-es/products/devops)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|Beta version
+| [Bitbucket](https://bitbucket.org/product/)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|Supports SaaS and onpremise version, beta version
+| [Tekton](https://tekton.dev/) | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman| Integration as external tool
 
 # 🛠️ Tools
 There are a list of apitools that apiquality integrate:

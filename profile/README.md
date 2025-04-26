@@ -93,7 +93,7 @@ There are a list of API Managers that apiquality integrate:
 
    | 🎁 Tool  | Stages | Import explorer | 📚 Comments
 |---|---|---|---|
-| [Apigee]([https://apigee.google.com/)  | Import | NO | The easy configuration and import explorer will be soon. Apigee X compatibility.
+| [Apigee](https://apigee.google.com/)  | Import | NO | The easy configuration and import explorer will be soon. Apigee X compatibility.
 | [Wso2](https://wso2.com/) | Deploy, Synchronized, Promote environments, Initializer| NO|The import in explorer from wso2 will be soon. Supports 4.1 and 4.2 version
 | [Tyk](http://tyk.io/)  | Using custom stages | NO | The easy configuration will be soon
 | [Mulesoft](https://www.mulesoft.com/) | Easy config and deploy are available | Yes | Very soon will be available more stages

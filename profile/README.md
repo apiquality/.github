@@ -39,48 +39,59 @@ A sample of the organizations using in the wild:
 
 ## Releases
 
-### v2.11 (24 Apr 2025)
-- Create easy deploy for Mulesoft APIs
-- Massive import users
-- New field in context / opportunities API (instructions, calculated field, calculated text field, calculated editable field, fixed, organization properties)
-- New funcionality to create namespaces and properties in organization level
+### v2.14 (12 Jun 2025)
+- Create life of cycle of stress tests
+- Direct import of APIs from Wso2
+- Life of cycle of models
+- New step for openapigenerator
+- Refresh button
 
 ## Roadmap
 The next releases are:
  
-### v3.0 (May 2025)
+### v3.0 Security release (Jun 2025)
 - Integrate with OWASP Zap to scan api vulnerabilities
 - Deploy API Portal without API Managers
 - Deploy all cycle in Tyk and ApigeeX
-- Create stress tests with jmeter
+- Show statistics API from ELK
 
-### v3.1 Statistics release (Jun 2025)
-- Use spectral as alternative doSonarAPI
+### v3.2 APIPortal release (Jul 2025)
 - Deploy API Portal with AWS API Gateway
 - Easy deploy for AWS API Gateway 
 - Deploy API Portal with Mulesoft
-- Create apis propousal using IA
-- Show statistics API from ELK
-
-### v3.2 AsyncAPI (Jul 2025)
+- Deploy API Portal without API Management
+- Create an agent IA to evaluate APIS
+- Create a MSCP for MSCP Clients
+  
+### v3.3 AsyncAPI release (August 2025)
+- Add AsyncAPI support
+- Create style guides for asyncapi and spectral
+- Create minimal steps for asyncapis (validate, mocking, generate code)
+- Edit with online editor for asyncapi
+- Add portman to generate tests
 - Deploy API Portal with  Kong
 - Easy deploy for Kong
-- Add portman to generate tests
-- Add AsyncAPI support
 
-### v3.3 Products release (August 2025)
+### v3.4 Product release(Sept 2025)
 - Add products support
-- Easy deploy for Azure API Management
-- Add portman to generate tests
-
-### v3.4 Central catalog release (Sept 2025)
-- Create a intelligent central catalog to reuse in APIs
+- Create a intelligent central catalog to reuse in APIs with IA
 - Easy deploy for IBM
+- Deploy API Portal with Azure API Management
+- Easy deploy for Azure API Management
+
+### v3.5 IA release(Oct 2025)
+- Create a intelligent central catalog to reuse in APIs with IA
+- Deploy API Portal with  TyK
+- Easy deploy for TyK
+- MSCP Catalog
 
 ### v3.5 Graphql release (Dec 2025)
 - Apigen visual UI to mapping database
 - Add Graphql support
 - Create openapi2insomnia and integrate automatic tests
+- Deploy API Portal with  Kraken
+- Easy deploy for Kraken
+
 
 ## Features and bugs
 You can requests features by github and put bugs to resolve then in github
@@ -134,6 +145,9 @@ There are a list of apitools that apiquality integrate:
 | [Openapigenerator](https://github.com/OpenAPITools/openapi-generator) | create backend code selecting different lenguages |
 | [zapProxy](https://www.zaproxy.org/) | generate and execute security tests for apis|
 | [jmeter](https://jmeter.apache.org/) | generate and execute performance tests|
+| [k6](https://testkube.io/) | execute test performance | (in roadmap)
+| [portman](https://github.com/apideck-libraries/portman) | create postman tests | (in roadmap)
+
 
 ### [Learn more about APIQuality](https://apiquality.io)
 

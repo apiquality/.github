@@ -39,12 +39,13 @@ A sample of the organizations using in the wild:
 
 ## Releases
 
-### v2.14 (12 Jun 2025)
-- Create life of cycle of stress tests
-- Direct import of APIs from Wso2
-- Life of cycle of models
-- New step for openapigenerator
-- Refresh button
+### v2.15 (Jul 2025)
+- Life of cycle with pre-configured stages in TyK
+- APi Change Log with visual interface
+- New version of sonar with more 10 rules news
+- New list for models in dashboard screen
+- New capacity to generate stress tests using k6
+- New stages in Github
 
 ## Roadmap
 The next releases are:

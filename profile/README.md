@@ -50,48 +50,23 @@ A sample of the organizations using in the wild:
 ## Roadmap
 The next releases are:
  
-### v3.0 Security release (Jun 2025)
-- Integrate with OWASP Zap to scan api vulnerabilities
-- Deploy API Portal without API Managers
-- Deploy all cycle in Tyk and ApigeeX
-- Show statistics API from ELK
-
-### v3.2 APIPortal release (Jul 2025)
-- Deploy API Portal with AWS API Gateway
-- Easy deploy for AWS API Gateway 
-- Deploy API Portal with Mulesoft
-- Deploy API Portal without API Management
-- Create an agent IA to evaluate APIS
-- Create a MSCP for MSCP Clients
-  
-### v3.3 AsyncAPI release (August 2025)
-- Add AsyncAPI support
-- Create style guides for asyncapi and spectral
-- Create minimal steps for asyncapis (validate, mocking, generate code)
-- Edit with online editor for asyncapi
-- Add portman to generate tests
-- Deploy API Portal with  Kong
-- Easy deploy for Kong
-
-### v3.4 Product release(Sept 2025)
+### v3 AyncAPI (Sept-Oct)
 - Add products support
-- Create a intelligent central catalog to reuse in APIs with IA
-- Easy deploy for IBM
-- Deploy API Portal with Azure API Management
-- Easy deploy for Azure API Management
+- Deploy API Portal with AWS, Kong
+- Add portman to generate tests
+- Add Async API support
+- Add fined permissions
 
-### v3.5 IA release(Oct 2025)
-- Create a intelligent central catalog to reuse in APIs with IA
-- Deploy API Portal with  TyK
-- Easy deploy for TyK
-- MSCP Catalog
+### v4  IA Version (Dic)
+- Create a intelligent central catalog to reuse in APIs
+- Deploy API Portal with AWS Tyk
+- Create visual studio plugin
+- MCP
 
-### v3.5 Graphql release (Dec 2025)
+### v5  Graphsql (Mar 2026)
 - Apigen visual UI to mapping database
 - Add Graphql support
 - Create openapi2insomnia and integrate automatic tests
-- Deploy API Portal with  Kraken
-- Easy deploy for Kraken
 
 
 ## Features and bugs

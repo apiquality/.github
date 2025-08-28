@@ -121,8 +121,8 @@ There are a list of apitools that apiquality integrate:
 | [Openapigenerator](https://github.com/OpenAPITools/openapi-generator) | create backend code selecting different lenguages |
 | [zapProxy](https://www.zaproxy.org/) | generate and execute security tests for apis|
 | [jmeter](https://jmeter.apache.org/) | generate and execute performance tests|
-| [openapige2apigee]|(https://github.com/apigee/openapi2apigee) | create a api proxy for openapi|
-| [apigeelint]|(https://github.com/apigee/apigeelint]| lint the apiproxy|
+| [openapige2apigee](https://github.com/apigee/openapi2apigee) | create a api proxy for openapi|
+| [apigeelint](https://github.com/apigee/apigeelint]| lint the apiproxy|
 
 | [k6](https://testkube.io/) | execute test performance | (in roadmap)
 | [portman](https://github.com/apideck-libraries/portman) | create postman tests | (in roadmap)

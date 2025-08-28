@@ -63,7 +63,7 @@ The next releases are:
 - Create visual studio plugin
 - MCP
 
-### v5  Graphsql (Mar 2026)
+### v5  Graphql (Mar 2026)
 - Apigen visual UI to mapping database
 - Add Graphql support
 - Create openapi2insomnia and integrate automatic tests

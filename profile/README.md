@@ -39,13 +39,11 @@ A sample of the organizations using in the wild:
 
 ## Releases
 
-### v2.15 (Jul 2025)
-- Life of cycle with pre-configured stages in TyK
-- APi Change Log with visual interface
-- New version of sonar with more 10 rules news
-- New list for models in dashboard screen
-- New capacity to generate stress tests using k6
-- New stages in Github
+### v2.18 (21-08-2025)
+- Import from API Hub
+- Security Test History
+- New Functionality for Tested and Untested Endpoints
+- SonarQube (10.8) and Microcks (1.12) Update
 
 ## Roadmap
 The next releases are:

@@ -49,7 +49,7 @@ A sample of the organizations using in the wild:
 The next releases are:
  
 ### v3 AyncAPI (Sept-Oct)
-- Add products support
+
 - Deploy API Portal with AWS, Kong
 - Add portman to generate tests
 - Add Async API support
@@ -58,14 +58,13 @@ The next releases are:
 ### v4  IA Version (Dic)
 - Create a intelligent central catalog to reuse in APIs
 - Deploy API Portal with AWS Tyk
-- Create visual studio plugin
+- Add products support
 - MCP
 
 ### v5  Graphql (Mar 2026)
 - Apigen visual UI to mapping database
 - Add Graphql support
 - Create openapi2insomnia and integrate automatic tests
-
 
 ## Features and bugs
 You can requests features by github and put bugs to resolve then in github

@@ -50,21 +50,39 @@ The next releases are:
  
 ### v3 AyncAPI (Sept-Oct)
 
-- Deploy API Portal with AWS, Kong
 - Add portman to generate tests
 - Add Async API support
 - Add fined permissions
+- Spectral compatible
+- Include Azure Devops
+- Coverage API testing
+- Create security scanner
+- APIQuality MCP Server
 
-### v4  IA Version (Dic)
+
+### v4  MCP Catalog  (Dic)
+- Create a MCP Catalog
+- Create MCP Server life of cycle
+- Deploy API Portal with AWS, Kong
+- Create advanced security scanner
+- Add 3.0 AsyncaPI compatibility
+- Add full life of cycle for Kong, AWS API Gateway and Azure API Management
+
+### v5  Graphql (Mar 2026)
 - Create a intelligent central catalog to reuse in APIs
 - Deploy API Portal with AWS Tyk
 - Add products support
-- MCP
+- Add Graphql life of cycle support
+- Add 3.1 OAS3 compatibility
 
-### v5  Graphql (Mar 2026)
-- Apigen visual UI to mapping database
-- Add Graphql support
-- Create openapi2insomnia and integrate automatic tests
+
+### v6 IA version  (Jun 2026)
+- Generate API Evangelist IA clone
+- Generate IA helper designer
+- Generate IA reporting API support
+- Generate IA helper governance
+- Add product support
+- Add API-Led architecture support
 
 ## Features and bugs
 You can requests features by github and put bugs to resolve then in github

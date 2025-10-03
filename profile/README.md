@@ -74,6 +74,7 @@ The next releases are:
 - Add products support
 - Add Graphql life of cycle support
 - Add 3.1 OAS3 compatibility
+- Add API-Led architecture support
 
 
 ### v6 IA version  (Jun 2026)
@@ -81,8 +82,7 @@ The next releases are:
 - Generate IA helper designer
 - Generate IA reporting API support
 - Generate IA helper governance
-- Add product support
-- Add API-Led architecture support
+
 
 ## Features and bugs
 You can requests features by github and put bugs to resolve then in github

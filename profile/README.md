@@ -39,51 +39,76 @@ A sample of the organizations using in the wild:
 
 ## Releases
 
-### v2.18 (21-08-2025)
-- Import from API Hub
-- Security Test History
-- New Functionality for Tested and Untested Endpoints
-- SonarQube (10.8) and Microcks (1.12) Update
+### v2.22 (30-12-2025)
+- New redesign for api dashboard rating
+- Merge the initializer and apigee templater for apigee
+- New life cycle for api templates, api manager templates, opportunities, style guides
+- Redesign kong and IBM life cycle
+- New documentation section
+- Bugs and small features
 
 ## Roadmap
 The next releases are:
- 
-### v3 AyncAPI (Sept-Oct)
 
-- Add portman to generate tests
-- Add Async API support
-- Add fined permissions
-- Spectral compatible
-- Include Azure Devops
-- Coverage API testing
-- Create security scanner
-- APIQuality MCP Server
-
-
-### v4  MCP Catalog  (Dic)
+### v4  MCP Catalog and AWS  (Jan)
 - Create a MCP Catalog
-- Create MCP Server life of cycle
-- Deploy API Portal with AWS, Kong
-- Create advanced security scanner
+- Create MCP Server life cycle
+- Add full life AWS API Gateway
 - Add 3.0 AsyncaPI compatibility
-- Add full life of cycle for Kong, AWS API Gateway and Azure API Management
 
-### v5  Graphql (Mar 2026)
-- Create a intelligent central catalog to reuse in APIs
-- Deploy API Portal with AWS Tyk
-- Add products support
-- Add Graphql life of cycle support
-- Add 3.1 OAS3 compatibility
-- Add API-Led architecture support
+### v5  APIPortal (Feb 2026)
+- Create exporter MCP for Wso2
+- Deploy API Portal with  Wso2
+- Add products support for Wso2
+- Add full life cycle Azure API Manager
+- Create advanced security scanner
 
-
-### v6 IA version  (Jun 2026)
+### v6  IA (Mar 2026)
 - Generate API Evangelist IA clone
 - Generate IA helper designer
 - Generate IA reporting API support
 - Generate IA helper governance
+- Create exporter MCP for Apigee
+- Deploy API Portal with  Apigee
+- Add products support for Apigee
 
+### v7  Azure APIM (May 2026)
+- Create exporter MCP for Azure APIM
+- Deploy API Portal with  Azure APIM
+- Add products support for Azure APIM
 
+### v8  IBM Api Connect (Apr 2026)
+- Create exporter MCP for IBM
+- Deploy API Portal with  IBM 
+- Add products support for IBM
+
+### v9 TyK (May 2026)
+- Create exporter MCP for TyK
+- Deploy API Portal with  TyK 
+- Add products support for TyK
+
+### v8 API LED (Jun 2026)
+- Add API-Led architecture support
+
+### v8 Mulesoft (Ago 2026)
+- Create exporter MCP for Mulesoft Anypoint Platform
+- Deploy API Portal with  Mulesoft Anypoint Platform
+- Add products support for Mulesoft Anypoint Platform
+
+### v9 Gravitee (Sept 2026)
+- Create life cycle for Gravitee
+- Create exporter MCP for Gravitee
+
+### v10 Kraken (Oct 2026)
+- Create life cycle for Kraken
+- Create exporter MCP for Kraken
+
+### v11 Apache SIX (Nov 2026)
+- Create life cycle for Apache SIX
+    
+### v12 Graphql (Dic 2026)
+- Add Graphql life of cycle support
+ 
 ## Features and bugs
 You can requests features by github and put bugs to resolve then in github
 

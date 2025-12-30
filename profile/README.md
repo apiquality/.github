@@ -115,6 +115,16 @@ You can requests features by github and put bugs to resolve then in github
 ## Support
 There are a enterprise support 
 
+
+# 🛠️ ApiFirst stages 
+There are a list of that apiquality stages by specificatio:
+
+| 🎁 Type  | Designer | Mocking | Contract tests | Microservices | Quality tests | Security tests | 📚 Comments
+|---|---|---|---|---|---|---|---|
+| [openapi](https://www.openapis.org/)  | Microcks Enricher, Redocly Linter, SonarQube, Openapi Diffs, Ref Resolver, Sonar2Spectral | Microcks | Openapi2Postman, Portman | apigen.net, apigen.springboot, openapigenerator, openapigerator:jmeter | newman, jmeter | zap proxy
+| [asyncapi](asyncapi.com)  | SonarQube | Microcks | |AsyncAPI Generator | Confluent importer
+
+
 # 🛠️ Api Managers supported
 There are a list of API Managers that apiquality integrate:
 

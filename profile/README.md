@@ -119,15 +119,15 @@ There are a enterprise support
 There are a list of API Managers that apiquality integrate:
 
    | 🎁 Tool  | Stages | Import explorer | MCP | Conector API Market |📚 Comments
-|---|---|---|---|
+|---|---|---|---|---|---|
 | [Apigee](https://apigee.google.com/)  | Initilizer, sync, validate | APIHub | No | No | The easy configuration and import explorer will be soon. Apigee X compatibility.
 | [Wso2](https://wso2.com/) | Deploy, Sync, Promoter, Initializer| Yes | No | No |The import in explorer from wso2 will be soon. Supports 4.1 and 4.2 version
 | [Tyk](http://tyk.io/)  | Initializer, Sync, Promoter  | No | No| No | The easy configuration will be soon
-| [Mulesoft](https://www.mulesoft.com/) | Deployer Exchange | Yes | Yes | No| Very soon will be available more stages
+| [Mulesoft](https://www.mulesoft.com/) | Deployer Exchange | Yes | No | Yes| Very soon will be available more stages
 | [IBM Api Connect](https://www.ibm.com/)  |Initializer, Sync, Promoter, Deployer| No| No | No| 
 | [Kong](https://konghq.com/)  | Initializer, Validate, Deployer  | No |No | No | Available for 2.X version
-| [AWS APi Gateway](https://aws.amazon.com/es/api-gateway/)  | Deploy  | NO | In Roadmap
-| [Azure API Management](https://azure.microsoft.com/es-es/products/api-management)  | Custom stages  | No | Yes | In Roadmap
+| [AWS APi Gateway](https://aws.amazon.com/es/api-gateway/)  | Deploy  | No | No | No| In Roadmap
+| [Azure API Management](https://azure.microsoft.com/es-es/products/api-management)  | Custom stages  | No | No | Yes | In Roadmap
 | [Kraken](https://www.krakend.io/)  | Custom stages  | No | No | No | In Roadmap
 
 
@@ -163,9 +163,8 @@ There are a list of apitools that apiquality integrate:
 | [jmeter](https://jmeter.apache.org/) | generate and execute performance tests|
 | [openapige2apigee](https://github.com/apigee/openapi2apigee) | create a api proxy for openapi|
 | [apigeelint](https://github.com/apigee/apigeelint)| lint the apiproxy|
-
+| [portman](https://github.com/apideck-libraries/portman) | create postman tests 
 | [k6](https://testkube.io/) | execute test performance | (in roadmap)
-| [portman](https://github.com/apideck-libraries/portman) | create postman tests | (in roadmap)
 
 
 ### [Learn more about APIQuality](https://apiquality.io)

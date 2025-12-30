@@ -56,14 +56,14 @@ The next releases are:
 - Add full life AWS API Gateway
 - Add 3.0 AsyncaPI compatibility
 
-### v5  APIPortal (Feb 2026)
+### v5  MCP Wso2 and Azure API Manager (Feb 2026)
 - Create exporter MCP for Wso2
 - Deploy API Portal with  Wso2
 - Add products support for Wso2
 - Add full life cycle Azure API Manager
 - Create advanced security scanner
 
-### v6  IA (Mar 2026)
+### v6  IA and MCP for Apigee (Mar 2026)
 - Generate API Evangelist IA clone
 - Generate IA helper designer
 - Generate IA reporting API support

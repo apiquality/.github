@@ -129,6 +129,8 @@ There are a list of API Managers that apiquality integrate:
 | [AWS APi Gateway](https://aws.amazon.com/es/api-gateway/)  | Deploy  | No | No | No| No| In Roadmap
 | [Azure API Management](https://azure.microsoft.com/es-es/products/api-management)  | Custom stages  | No | No | Yes | No| In Roadmap
 | [Kraken](https://www.krakend.io/)  | Custom stages  | No | No | No | No| In Roadmap
+| [ApacheSix](https://apisix.apache.org/)  | Custom stages  | No | No | No | No| In Roadmap
+| [Gravitee](https://www.gravitee.io/)  | Custom stages  | No | No | No | No| In Roadmap
 
 
 # 🛠️ Repositories technology support

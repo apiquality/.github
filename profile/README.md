@@ -39,13 +39,26 @@ A sample of the organizations using in the wild:
 
 ## Releases
 
-### v2.22 (30-12-2025)
-- New redesign for api dashboard rating
-- Merge the initializer and apigee templater for apigee
-- New life cycle for api templates, api manager templates, opportunities, style guides
-- Redesign kong and IBM life cycle
-- New documentation section
-- Bugs and small features
+v2.3 Devportal release (16-01-2026)
+
+The release version contains:
+- New better developer portal configuration.
+- Automatic executions for Newman with global organization configuration
+- Add api and environment to emails sended by platform
+- New release for apiquality visual api editor with redocly and spectral validations
+- New feture to create and update api templates direcly in the platform
+- Get better life cycle in Apigee
+- -> One step to apply company configuration ange workflow generation.
+- -> Configure the target url in a form
+- Get better life cycle in Kong in one step
+- -> Load the template configuration in initializer
+- -> Reconfigure services directly to deploy in one-click whitin repository modification
+- Get better life cycle in Wso2. 
+- -> New capacity to 
+- -> New field to add as property the repository url
+- Get better life cycle in IBM.
+- - > The new deploy maintenance the subscription
+- -> New IBM prouduct template
 
 ## Roadmap
 The next releases are:

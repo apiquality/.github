@@ -39,26 +39,21 @@ A sample of the organizations using in the wild:
 
 ## Releases
 
-v2.3 Devportal release (16-01-2026)
+v2.4 AI Readiness scoring (30-01-2026)
 
 The release version contains:
-- New better developer portal configuration.
-- Automatic executions for Newman with global organization configuration
-- Add api and environment to emails sended by platform
-- New release for apiquality visual api editor with redocly and spectral validations
-- New feture to create and update api templates direcly in the platform
-- Get better life cycle in Apigee
-- -> One step to apply company configuration ange workflow generation.
-- -> Configure the target url in a form
-- Get better life cycle in Kong in one step
-- -> Load the template configuration in initializer
-- -> Reconfigure services directly to deploy in one-click whitin repository modification
-- Get better life cycle in Wso2. 
-- -> New capacity to 
-- -> New field to add as property the repository url
-- Get better life cycle in IBM.
-- - > The new deploy maintenance the subscription
-- -> New IBM prouduct template
+- AI readiness scoring
+- Default templates
+- Comments
+- New openapi editor (Beta)
+- Approval lifecycle for executing different stages
+- Package executor
+- Default template stage
+- Apigee
+- Kong
+- Wso2
+- IBM
+- Bug and minor improvements
 
 ## Roadmap
 The next releases are:
@@ -132,7 +127,7 @@ There are a enterprise support
 # 🛠️ ApiFirst stages 
 There are a list of that apiquality stages by specificatio:
 
-| 🎁 Type  | Designer | Mocking | Contract tests | Microservices | Quality tests | Security tests | 📚 Comments
+| 🎁 Type  | Designer | Mocking | Contract tests | Microservices | Quality tests | Security tests |  📚 Comments
 |---|---|---|---|---|---|---|---|
 | [openapi](https://www.openapis.org/)  | Microcks Enricher, Redocly Linter, SonarQube, Openapi Diffs, Ref Resolver, Sonar2Spectral | Microcks | Openapi2Postman, Portman | apigen.net, apigen.springboot, openapigenerator, openapigerator:jmeter | newman, jmeter | zap proxy
 | [asyncapi](asyncapi.com)  | SonarQube | Microcks | |AsyncAPI Generator | Confluent importer
@@ -158,13 +153,13 @@ There are a list of API Managers that apiquality integrate:
 
 # 🛠️ Repositories technology support
 There are a list of Repositories that apiquality support:
-   | 🎁 Repository  | Stages Definition |Stages Mocking |Stages Contract tests |Stages Microservices |Stages API Manager |Stages Quality tests| 📚 Comments
+   | 🎁 Repository  | Stages Definition |Stages Mocking |Stages Contract tests |Stages Microservices |Stages API Manager |Stages Quality tests|AI tests| 📚 Comments
 |---|---|---|---|---|---|---|---|
-| [Gitlab](https://gitlab.com/)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|Supports SaaS and onpremise version
-| [Github](https://github.com)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|Supports SaaS, Beta version
-| [AzureDevops](https://azure.microsoft.com/es-es/products/devops)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|Beta version
-| [Bitbucket](https://bitbucket.org/product/)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|Supports SaaS and onpremise version, beta version
-| [Tekton](https://tekton.dev/) | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman| Integration as external tool
+| [Gitlab](https://gitlab.com/)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|AI Readiness scoring|Supports SaaS and onpremise version
+| [Github](https://github.com)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman||Supports SaaS, Beta version
+| [AzureDevops](https://azure.microsoft.com/es-es/products/devops)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman||Beta version
+| [Bitbucket](https://bitbucket.org/product/)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman||Supports SaaS and onpremise version, beta version
+| [Tekton](https://tekton.dev/) | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|| Integration as external tool
 | [Jenkins](https://www.jenkins.io/) | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman| Integration as external tool
 
 # 🛠️ APITools

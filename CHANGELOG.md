@@ -1,5 +1,19 @@
 # Changelog
 
+### v2.24 AI Readiness Scoring [2025-01-30]
+- AI readiness scoring
+- Default templates
+- Comments
+- New openapi editor (Beta)
+- Approval lifecycle for executing different stages
+- Package executor
+- Default template stage
+- Apigee
+- Kong
+- Wso2
+- IBM
+- Bug and minor improvements
+
 ### v2.23 Devportal [2025-01-15]
 - New better developer portal configuration.
 - Automatic executions for Newman with global organization configuration

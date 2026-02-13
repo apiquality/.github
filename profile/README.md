@@ -39,36 +39,28 @@ A sample of the organizations using in the wild:
 
 ## Releases
 
-v2.4 AI Readiness scoring (30-01-2026)
+v2.28 API Report, AWS API GATEWAY AND AZURE API MANAGEMENT LIFE CYCLE
+[2026-02-12]
 
-The release version contains:
-- AI readiness scoring
-- Default templates
-- Comments
-- New openapi editor (Beta)
-- Approval lifecycle for executing different stages
-- Package executor
-- Default template stage
-- Apigee
-- Kong
-- Wso2
-- IBM
-- Bug and minor improvements
+- API Report
+- AWS API Gateway-
+- Azure API Manager
+- Mapping of properties of the API tab
+- New calculation of test scoring
+- Results of functional tests in the scoring dashboard
+- Performance scoring
+- Default rules in the style guide
+- Bugs and pequeñas mejoras
 
 ## Roadmap
 The next releases are:
 
-### v4  MCP Catalog and AWS  (Jan)
+### v4  MCP Catalog and AWS  (Feb 2026)
 - Create a MCP Catalog
 - Create MCP Server life cycle
-- Add full life AWS API Gateway
-- Add 3.0 AsyncaPI compatibility
-
-### v5  MCP Wso2 and Azure API Manager (Feb 2026)
 - Create exporter MCP for Wso2
 - Deploy API Portal with  Wso2
-- Add products support for Wso2
-- Add full life cycle Azure API Manager
+- Add product support for Wso2
 - Create advanced security scanner
 
 ### v6  IA and MCP for Apigee (Mar 2026)
@@ -144,8 +136,8 @@ There are a list of API Managers that apiquality integrate:
 | [Mulesoft](https://www.mulesoft.com/) | Deployer Exchange | Yes | No | Yes| No| Very soon will be available more stages
 | [IBM Api Connect](https://www.ibm.com/)  |Initializer, Sync, Promoter, Deployer| No| No | No| Yes|
 | [Kong](https://konghq.com/)  | Initializer, Validate, Deployer  | No |No | No | No| Available for 2.X version
-| [AWS APi Gateway](https://aws.amazon.com/es/api-gateway/)  | Deploy  | No | No | No| No| In Roadmap
-| [Azure API Management](https://azure.microsoft.com/es-es/products/api-management)  | Custom stages  | No | No | Yes | No| In Roadmap
+| [AWS APi Gateway](https://aws.amazon.com/es/api-gateway/)  | Deployer, Initializer, Sync, Promoter  | No | No | No| No| 
+| [Azure API Management](https://azure.microsoft.com/es-es/products/api-management)  | Deployer, Initializer, Sync, Promoter  | No | No | Yes | No| 
 | [Kraken](https://www.krakend.io/)  | Custom stages  | No | No | No | No| In Roadmap
 | [ApacheSix](https://apisix.apache.org/)  | Custom stages  | No | No | No | No| In Roadmap
 | [Gravitee](https://www.gravitee.io/)  | Custom stages  | No | No | No | No| In Roadmap

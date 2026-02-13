@@ -55,7 +55,7 @@ v2.28 API Report, AWS API GATEWAY AND AZURE API MANAGEMENT LIFE CYCLE
 ## Roadmap
 The next releases are:
 
-### v4  MCP Catalog and AWS  (Feb 2026)
+### v5  MCP Catalog and AWS  (Feb 2026)
 - Create a MCP Catalog
 - Create MCP Server life cycle
 - Create exporter MCP for Wso2

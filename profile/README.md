@@ -39,6 +39,18 @@ A sample of the organizations using in the wild:
 
 ## Releases
 
+v2.29 Visual api-database mapper
+[2026-02-20]
+
+- Visual api-database-mapper (Beta)
+- Default API Briefing creation
+- Redesign of the safety scoring
+- Example API when you create a organization
+- New fields in the stress test execution list
+- New deck version creation for Kong API Manager
+- New deployment stage in the API Market portal
+- Recurring and planned steps
+
 v2.28 API Report, AWS API GATEWAY AND AZURE API MANAGEMENT LIFE CYCLE
 [2026-02-12]
 
@@ -121,7 +133,7 @@ There are a list of that apiquality stages by specificatio:
 
 | 🎁 Type  | Designer | Mocking | Contract tests | Microservices | Quality tests | Security tests |  📚 Comments
 |---|---|---|---|---|---|---|---|
-| [openapi](https://www.openapis.org/)  | Microcks Enricher, Redocly Linter, SonarQube, Openapi Diffs, Ref Resolver, Sonar2Spectral | Microcks | Openapi2Postman, Portman | apigen.net, apigen.springboot, openapigenerator, openapigerator:jmeter | newman, jmeter | zap proxy
+| [openapi](https://www.openapis.org/)  | Microcks Enricher, Redocly Linter, SonarQube, Openapi Diffs, Ref Resolver, Sonar2Spectral | Microcks | Openapi2Postman, Portman | visual api-database mapper, apigen.net, apigen.springboot, openapigenerator, openapigerator:jmeter | newman, jmeter | zap proxy
 | [asyncapi](asyncapi.com)  | SonarQube | Microcks | |AsyncAPI Generator | Confluent importer
 
 
@@ -147,7 +159,7 @@ There are a list of API Managers that apiquality integrate:
 There are a list of Repositories that apiquality support:
    | 🎁 Repository  | Stages Definition |Stages Mocking |Stages Contract tests |Stages Microservices |Stages API Manager |Stages Quality tests|AI tests| 📚 Comments
 |---|---|---|---|---|---|---|---|---|
-| [Gitlab](https://gitlab.com/)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|AI Readiness scoring|Supports SaaS and onpremise version
+| [Gitlab](https://gitlab.com/)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | visual mapper, apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|AI Readiness scoring|Supports SaaS and onpremise version
 | [Github](https://github.com)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman||Supports SaaS, Beta version
 | [AzureDevops](https://azure.microsoft.com/es-es/products/devops)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman||Beta version
 | [Bitbucket](https://bitbucket.org/product/)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman||Supports SaaS and onpremise version, beta version
@@ -176,7 +188,9 @@ There are a list of apitools that apiquality integrate:
 | [openapige2apigee](https://github.com/apigee/openapi2apigee) | create a api proxy for openapi|
 | [apigeelint](https://github.com/apigee/apigeelint)| lint the apiproxy|
 | [portman](https://github.com/apideck-libraries/portman) | create postman tests 
+| [apimcpmarket](https://github.com/apiaddicts/apiportal-front) | apimarket opensource to show apis (openapi,asyncapi), mcps, dataapis (gaiax) |
 | [k6](https://testkube.io/) | execute test performance | (in roadmap)
+
 
 
 ### [Learn more about APIQuality](https://apiquality.io)

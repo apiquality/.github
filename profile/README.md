@@ -38,8 +38,6 @@ A sample of the organizations using in the wild:
 
 
 
-
-
 # 🛠️ ApiFirst stages 
 There are a list of that apiquality stages by specificatio:
 
@@ -53,11 +51,11 @@ There are a list of that apiquality stages by specificatio:
 There are a list of LLMs supported that apiquality integrate:
 
    | 🎁 LLM  |Status | 📚 Comments
-|---|---|---|---|---|---|---|
-| [Gemini](https://ai.google.dev/gemini-api/docs/models)  | Integrated 
-| [Claude](https://platform.claude.com/docs/en/about-claude/models/overview) |Planned
-| [OpenAI](https://developers.openai.com/api/docs/models) |Planned
-| [Llama](https://www.llama.com/) |In Roadmap
+|---|---|---|
+| [Gemini](https://ai.google.dev/gemini-api/docs/models)  | Integrated |
+| [Claude](https://platform.claude.com/docs/en/about-claude/models/overview) |Planned|
+| [OpenAI](https://developers.openai.com/api/docs/models) |Planned |
+| [Llama](https://www.llama.com/) |In Roadmap |
 
 
 # 🛠️ Api Managers supported

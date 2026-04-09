@@ -37,6 +37,81 @@ A sample of the organizations using in the wild:
 - And more...
 
 
+
+
+
+# 🛠️ ApiFirst stages 
+There are a list of that apiquality stages by specificatio:
+
+| 🎁 Type  | Designer | Mocking | Contract tests | Microservices | Quality tests | Security tests |  📚 Comments
+|---|---|---|---|---|---|---|---|
+| [openapi](https://www.openapis.org/)  | Microcks Enricher, Redocly Linter, SonarQube, Openapi Diffs, Ref Resolver, Sonar2Spectral | Microcks | Openapi2Postman, Portman | visual api-database mapper, apigen.net, apigen.springboot, openapigenerator, openapigerator:jmeter | newman, jmeter | zap proxy
+| [asyncapi](asyncapi.com)  | SonarQube | Microcks | |AsyncAPI Generator | Confluent importer
+
+
+# 🛠️ LLMs supported
+There are a list of LLMs supported that apiquality integrate:
+
+   | 🎁 LLM  |Status | 📚 Comments
+|---|---|---|---|---|---|---|
+| [Gemini](https://ai.google.dev/gemini-api/docs/models)  | Integrated 
+| [Claude](https://platform.claude.com/docs/en/about-claude/models/overview) |Planned
+| [OpenAI](https://developers.openai.com/api/docs/models) |Planned
+| [Llama](https://www.llama.com/) |In Roadmap
+
+
+# 🛠️ Api Managers supported
+There are a list of API Managers that apiquality integrate:
+
+   | 🎁 Tool  | Stages | Import explorer | MCP | Conector API Market |Domain config | 📚 Comments
+|---|---|---|---|---|---|---|
+| [Apigee](https://apigee.google.com/)  | Initilizer, sync, validate | APIHub | No | No |No | The easy configuration and import explorer will be soon. Apigee X compatibility.
+| [Wso2](https://wso2.com/) | Deploy, Sync, Promoter, Initializer| Yes | No | No |Yes |The import in explorer from wso2 will be soon. Supports 4.1 and 4.2 version
+| [Tyk](http://tyk.io/)  | Initializer, Sync, Promoter  | No | No| No | No| The easy configuration will be soon
+| [Mulesoft](https://www.mulesoft.com/) | Deployer Exchange | Yes | No | Yes| No| Very soon will be available more stages
+| [IBM Api Connect](https://www.ibm.com/)  |Initializer, Sync, Promoter, Deployer| No| No | No| Yes|
+| [Kong](https://konghq.com/)  | Initializer, Validate, Deployer  | No |No | No | No| Available for 2.X version
+| [AWS APi Gateway](https://aws.amazon.com/es/api-gateway/)  | Deployer, Initializer, Sync, Promoter  | No | No | No| No| 
+| [Azure API Management](https://azure.microsoft.com/es-es/products/api-management)  | Deployer, Initializer, Sync, Promoter  | No | No | Yes | No| 
+| [Kraken](https://www.krakend.io/)  | Custom stages  | No | No | No | No| In Roadmap
+| [ApacheSix](https://apisix.apache.org/)  | Custom stages  | No | No | No | No| In Roadmap
+| [Gravitee](https://www.gravitee.io/)  | Custom stages  | No | No | No | No| In Roadmap
+
+
+# 🛠️ Repositories technology support
+There are a list of Repositories that apiquality support:
+   | 🎁 Repository  | Stages Definition |Stages Mocking |Stages Contract tests |Stages Microservices |Stages API Manager |Stages Quality tests|AI tests| 📚 Comments
+|---|---|---|---|---|---|---|---|---|
+| [Gitlab](https://gitlab.com/)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | visual mapper, apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|AI Readiness scoring|Supports SaaS and onpremise version
+| [Github](https://github.com)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman||Supports SaaS, Beta version
+| [AzureDevops](https://azure.microsoft.com/es-es/products/devops)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman||Beta version
+| [Bitbucket](https://bitbucket.org/product/)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman||Supports SaaS and onpremise version, beta version
+| [Tekton](https://tekton.dev/) | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|| Integration as external tool
+| [Jenkins](https://www.jenkins.io/) | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|| Integration as external tool
+
+# 🛠️ APITools
+There are a list of apitools that apiquality integrate:
+
+   | 🎁 Tool  | 📚 Description | 🤖 Technology |
+|---|---|---|
+| [apigen.springboot](https://github.com/apiaddicts/apigen.springboot/)  | Generate an archetype of the springboot framework using the openapi file |
+| [apigen.net](https://github.com/apiaddicts/apigen.net/)  | Generate an archetype of the asp.net framework using the openapi file  |
+| [openapi2postman](https://github.com/apiaddicts/openapi2postman)  | Creates automatic tests from Openapi 3.0 using postman format |
+| [openapi2soapui](https://github.com/apiaddicts/openapi2soapui)  | Generate a SoapUI project from an OpenAPI Specification |
+| [sonar-openapi](https://github.com/apiaddicts/sonar-openapi)  | Code analyzer for OpenAPI specifications  |
+| [dosonarapi](https://github.com/apiaddicts/dosonarapi)  | Code analyzer for OpenAPI specifications |
+| [redocly-cli](https://github.com/Redocly/redocly-cli)  | Redocly linter  |
+| [microcks](https://github.com/microcks/microcks)  | Mocks the APIs  |
+| [SonarQube](https://github.com/SonarSource/sonarqube)  | Validate the quality for APIs  |
+| [Spectral](https://github.com/stoplightio/spectral)  | Validate the quality for APIs  |
+| [Openapidiff](https://github.com/OpenAPITools/openapi-diff)  | Check backward compatibility between versions |
+| [Openapigenerator](https://github.com/OpenAPITools/openapi-generator) | create backend code selecting different lenguages |
+| [zapProxy](https://www.zaproxy.org/) | generate and execute security tests for apis|
+| [jmeter](https://jmeter.apache.org/) | generate and execute performance tests|
+| [openapige2apigee](https://github.com/apigee/openapi2apigee) | create a api proxy for openapi|
+| [apigeelint](https://github.com/apigee/apigeelint)| lint the apiproxy|
+| [portman](https://github.com/apideck-libraries/portman) | create postman tests 
+
 ## Releases
 
 v2.29 Visual api-database mapper
@@ -126,68 +201,6 @@ You can requests features by github and put bugs to resolve then in github
 
 ## Support
 There are a enterprise support 
-
-
-# 🛠️ ApiFirst stages 
-There are a list of that apiquality stages by specificatio:
-
-| 🎁 Type  | Designer | Mocking | Contract tests | Microservices | Quality tests | Security tests |  📚 Comments
-|---|---|---|---|---|---|---|---|
-| [openapi](https://www.openapis.org/)  | Microcks Enricher, Redocly Linter, SonarQube, Openapi Diffs, Ref Resolver, Sonar2Spectral | Microcks | Openapi2Postman, Portman | visual api-database mapper, apigen.net, apigen.springboot, openapigenerator, openapigerator:jmeter | newman, jmeter | zap proxy
-| [asyncapi](asyncapi.com)  | SonarQube | Microcks | |AsyncAPI Generator | Confluent importer
-
-
-# 🛠️ Api Managers supported
-There are a list of API Managers that apiquality integrate:
-
-   | 🎁 Tool  | Stages | Import explorer | MCP | Conector API Market |Domain config | 📚 Comments
-|---|---|---|---|---|---|---|
-| [Apigee](https://apigee.google.com/)  | Initilizer, sync, validate | APIHub | No | No |No | The easy configuration and import explorer will be soon. Apigee X compatibility.
-| [Wso2](https://wso2.com/) | Deploy, Sync, Promoter, Initializer| Yes | No | No |Yes |The import in explorer from wso2 will be soon. Supports 4.1 and 4.2 version
-| [Tyk](http://tyk.io/)  | Initializer, Sync, Promoter  | No | No| No | No| The easy configuration will be soon
-| [Mulesoft](https://www.mulesoft.com/) | Deployer Exchange | Yes | No | Yes| No| Very soon will be available more stages
-| [IBM Api Connect](https://www.ibm.com/)  |Initializer, Sync, Promoter, Deployer| No| No | No| Yes|
-| [Kong](https://konghq.com/)  | Initializer, Validate, Deployer  | No |No | No | No| Available for 2.X version
-| [AWS APi Gateway](https://aws.amazon.com/es/api-gateway/)  | Deployer, Initializer, Sync, Promoter  | No | No | No| No| 
-| [Azure API Management](https://azure.microsoft.com/es-es/products/api-management)  | Deployer, Initializer, Sync, Promoter  | No | No | Yes | No| 
-| [Kraken](https://www.krakend.io/)  | Custom stages  | No | No | No | No| In Roadmap
-| [ApacheSix](https://apisix.apache.org/)  | Custom stages  | No | No | No | No| In Roadmap
-| [Gravitee](https://www.gravitee.io/)  | Custom stages  | No | No | No | No| In Roadmap
-
-
-# 🛠️ Repositories technology support
-There are a list of Repositories that apiquality support:
-   | 🎁 Repository  | Stages Definition |Stages Mocking |Stages Contract tests |Stages Microservices |Stages API Manager |Stages Quality tests|AI tests| 📚 Comments
-|---|---|---|---|---|---|---|---|---|
-| [Gitlab](https://gitlab.com/)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | visual mapper, apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|AI Readiness scoring|Supports SaaS and onpremise version
-| [Github](https://github.com)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman||Supports SaaS, Beta version
-| [AzureDevops](https://azure.microsoft.com/es-es/products/devops)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman||Beta version
-| [Bitbucket](https://bitbucket.org/product/)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman||Supports SaaS and onpremise version, beta version
-| [Tekton](https://tekton.dev/) | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|| Integration as external tool
-| [Jenkins](https://www.jenkins.io/) | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|| Integration as external tool
-
-# 🛠️ APITools
-There are a list of apitools that apiquality integrate:
-
-   | 🎁 Tool  | 📚 Description | 🤖 Technology |
-|---|---|---|
-| [apigen.springboot](https://github.com/apiaddicts/apigen.springboot/)  | Generate an archetype of the springboot framework using the openapi file |
-| [apigen.net](https://github.com/apiaddicts/apigen.net/)  | Generate an archetype of the asp.net framework using the openapi file  |
-| [openapi2postman](https://github.com/apiaddicts/openapi2postman)  | Creates automatic tests from Openapi 3.0 using postman format |
-| [openapi2soapui](https://github.com/apiaddicts/openapi2soapui)  | Generate a SoapUI project from an OpenAPI Specification |
-| [sonar-openapi](https://github.com/apiaddicts/sonar-openapi)  | Code analyzer for OpenAPI specifications  |
-| [dosonarapi](https://github.com/apiaddicts/dosonarapi)  | Code analyzer for OpenAPI specifications |
-| [redocly-cli](https://github.com/Redocly/redocly-cli)  | Redocly linter  |
-| [microcks](https://github.com/microcks/microcks)  | Mocks the APIs  |
-| [SonarQube](https://github.com/SonarSource/sonarqube)  | Validate the quality for APIs  |
-| [Spectral](https://github.com/stoplightio/spectral)  | Validate the quality for APIs  |
-| [Openapidiff](https://github.com/OpenAPITools/openapi-diff)  | Check backward compatibility between versions |
-| [Openapigenerator](https://github.com/OpenAPITools/openapi-generator) | create backend code selecting different lenguages |
-| [zapProxy](https://www.zaproxy.org/) | generate and execute security tests for apis|
-| [jmeter](https://jmeter.apache.org/) | generate and execute performance tests|
-| [openapige2apigee](https://github.com/apigee/openapi2apigee) | create a api proxy for openapi|
-| [apigeelint](https://github.com/apigee/apigeelint)| lint the apiproxy|
-| [portman](https://github.com/apideck-libraries/portman) | create postman tests 
 | [apimcpmarket](https://github.com/apiaddicts/apiportal-front) | apimarket opensource to show apis (openapi,asyncapi), mcps, dataapis (gaiax) |
 | [k6](https://testkube.io/) | execute test performance | (in roadmap)
 

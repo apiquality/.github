@@ -140,59 +140,34 @@ v2.28 API Report, AWS API GATEWAY AND AZURE API MANAGEMENT LIFE CYCLE
 ## Roadmap
 The next releases are:
 
-### v5  MCP Catalog and AWS  (Feb 2026)
+### v5  IA (Jun 2026)
+- Create exporter MCP for Apigee, Wso2 4.6
 - Create a MCP Catalog
 - Create MCP Server life cycle
-- Create exporter MCP for Wso2
-- Deploy API Portal with  Wso2
-- Add product support for Wso2
-- Create advanced security scanner
+- Create advanced security scanner for MCPs
+- Create advanced testing for MCPs
+- MCP Generation
+- MCP documentation
+- MCP try-out
+- SAML Configuration
+- IA Helper fix design
+- IA helper api report
 
-### v6  IA and MCP for Apigee (Mar 2026)
-- Generate API Evangelist IA clone
-- Generate IA helper designer
-- Generate IA reporting API support
-- Generate IA helper governance
-- Create exporter MCP for Apigee
-- Deploy API Portal with  Apigee
-- Add products support for Apigee
-
-### v7  Azure APIM (May 2026)
+### v6  Product and agents (Sept 2026)
+- Deploy API Portal with  Wso2, Azure APIM, TyK
+- Add product support for Wso2, Azure APIM, Apigee
 - Create exporter MCP for Azure APIM
-- Deploy API Portal with  Azure APIM
-- Add products support for Azure APIM
-
-### v8  IBM Api Connect (Apr 2026)
-- Create exporter MCP for IBM
-- Deploy API Portal with  IBM 
-- Add products support for IBM
-
-### v9 TyK (May 2026)
-- Create exporter MCP for TyK
-- Deploy API Portal with  TyK 
-- Add products support for TyK
-
-### v8 API LED (Jun 2026)
-- Add API-Led architecture support
-
-### v8 Mulesoft (Ago 2026)
-- Create exporter MCP for Mulesoft Anypoint Platform
-- Deploy API Portal with  Mulesoft Anypoint Platform
-- Add products support for Mulesoft Anypoint Platform
-
-### v9 Gravitee (Sept 2026)
-- Create life cycle for Gravitee
-- Create exporter MCP for Gravitee
-
-### v10 Kraken (Oct 2026)
-- Create life cycle for Kraken
-- Create exporter MCP for Kraken
-
-### v11 Apache SIX (Nov 2026)
+- Create resources repository and add to visual design and the model design
 - Create life cycle for Apache SIX
-    
-### v12 Graphql (Dic 2026)
+- Add agent case testing and agent security testing
+  
+### v7  API-led architecture (Dec 2026)
+- Create exporter MCP for IBM, TyK
+- Deploy API Portal with  TyK, APISIX
+- Add products support for IBM, TyK, Apisix
 - Add Graphql life of cycle support
+- Add api-led architecture
+
  
 ## Features and bugs
 You can requests features by github and put bugs to resolve then in github

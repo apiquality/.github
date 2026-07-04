@@ -61,8 +61,8 @@ There are a list of LLMs supported that apiquality integrate:
 # 🛠️ Api Managers supported
 There are a list of API Managers that apiquality integrate:
 
-   | 🎁 Tool  | Stages | Import explorer | MCP | Conector API Market |Domain config |EasyConfiguration|Arquitecture template| 📚 Comments
-|---|---|---|---|---|---|---|
+| 🎁 Tool  | Stages | Import explorer | MCP | Conector API Market |Domain config |EasyConfiguration|Arquitecture template| 📚 Comments
+|---|---|---|---|---|---|---|---|---
 | [Apigee](https://apigee.google.com/)  | Initilizer, sync, deployer, promoter, validate | APIHub | Yes | No |No | Yes|Yes|
 | [Wso2](https://wso2.com/) | Deploy, Sync, Promoter, Initializer| Yes | Yes | No |Yes |Yes|Yes|Support 3.2, 4.1, 4.2 and 4.6
 | [Tyk](http://tyk.io/)  | Initializer, Sync, Promoter  | No | No| No | No|No|No| The easy configuration will be soon

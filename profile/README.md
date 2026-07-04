@@ -79,7 +79,7 @@ There are a list of API Managers that apiquality integrate:
 # 🛠️ Repositories technology support
 There are a list of Repositories that apiquality support:
    | 🎁 Repository  | Stages Definition |Stages Mocking |Stages Contract tests |Stages Microservices |Stages API Manager |Stages Quality tests|AI tests| 📚 Comments
-|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|---|
 | [Gitlab](https://gitlab.com/)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | visual mapper, apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman|AI Readiness scoring|Supports SaaS and onpremise version
 | [Github](https://github.com)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman||Supports SaaS, Beta version
 | [AzureDevops](https://azure.microsoft.com/es-es/products/devops)  | MicrocksEnricher,RedoclyLinter,SonarQube,Mulesoft: Syncrhonizer-Designer,OPenapiDiffs,Ref Resolver, Sonar2Spectral | Microcks | Openapi2postman | apigen.net, apigen.springboot|Apigeex,kong,mulesoft,wso2|Newman||Beta version

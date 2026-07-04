@@ -61,18 +61,18 @@ There are a list of LLMs supported that apiquality integrate:
 # 🛠️ Api Managers supported
 There are a list of API Managers that apiquality integrate:
 
-   | 🎁 Tool  | Stages | Import explorer | MCP | Conector API Market |Domain config | 📚 Comments
+   | 🎁 Tool  | Stages | Import explorer | MCP | Conector API Market |Domain config |EasyConfiguration|Arquitecture template| 📚 Comments
 |---|---|---|---|---|---|---|
-| [Apigee](https://apigee.google.com/)  | Initilizer, sync, validate | APIHub | No | No |No | The easy configuration and import explorer will be soon. Apigee X compatibility.
-| [Wso2](https://wso2.com/) | Deploy, Sync, Promoter, Initializer| Yes | No | No |Yes |The import in explorer from wso2 will be soon. Supports 4.1 and 4.2 version
-| [Tyk](http://tyk.io/)  | Initializer, Sync, Promoter  | No | No| No | No| The easy configuration will be soon
-| [Mulesoft](https://www.mulesoft.com/) | Deployer Exchange | Yes | No | Yes| No| Very soon will be available more stages
-| [IBM Api Connect](https://www.ibm.com/)  |Initializer, Sync, Promoter, Deployer| No| No | No| Yes|
-| [Kong](https://konghq.com/)  | Initializer, Validate, Deployer  | No |No | No | No| Available for 2.X version
-| [AWS APi Gateway](https://aws.amazon.com/es/api-gateway/)  | Deployer, Initializer, Sync, Promoter  | No | No | No| No| 
-| [Azure API Management](https://azure.microsoft.com/es-es/products/api-management)  | Deployer, Initializer, Sync, Promoter  | No | No | Yes | No| 
+| [Apigee](https://apigee.google.com/)  | Initilizer, sync, deployer, promoter, validate | APIHub | Yes | No |No | Yes|Yes|The easy configuration and import explorer will be soon. Apigee X compatibility.
+| [Wso2](https://wso2.com/) | Deploy, Sync, Promoter, Initializer| Yes | Yes | No |Yes |Yes|Yes|Support 3.2, 4.1, 4.2 and 4.6
+| [Tyk](http://tyk.io/)  | Initializer, Sync, Promoter  | No | No| No | No|No|No| The easy configuration will be soon
+| [Mulesoft](https://www.mulesoft.com/) | Deployer Exchange | Yes | No | Yes| No|No|No| Very soon will be available more stages
+| [IBM Api Connect](https://www.ibm.com/)  |Initializer, Sync, Promoter, Deployer| No| No | No| Yes|Yes|Yes
+| [Kong](https://konghq.com/)  | Initializer, Validate, Deployer  | No |No | No | No| Yes|Yes
+| [AWS APi Gateway](https://aws.amazon.com/es/api-gateway/)  | Deployer, Initializer, Sync, Promoter  | No | No | No| No| No|No
+| [Azure API Management](https://azure.microsoft.com/es-es/products/api-management)  | Deployer, Initializer, Sync, Promoter  | No | No | Yes | No|Yes|Yes
+| [ApacheSix](https://apisix.apache.org/)  | Initilizer, sync, promoter, deployer  | No | No | No | No| Yes|Yes
 | [Kraken](https://www.krakend.io/)  | Custom stages  | No | No | No | No| In Roadmap
-| [ApacheSix](https://apisix.apache.org/)  | Custom stages  | No | No | No | No| In Roadmap
 | [Gravitee](https://www.gravitee.io/)  | Custom stages  | No | No | No | No| In Roadmap
 
 

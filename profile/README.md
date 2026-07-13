@@ -102,9 +102,9 @@ There are a list of apitools that apiquality integrate:
 | [openapi2soapui](https://github.com/apiaddicts/openapi2soapui)  | Generate a SoapUI project from an OpenAPI Specification |
 | [sonar-openapi](https://github.com/apiaddicts/sonar-openapi)  | Code analyzer for OpenAPI specifications  |
 | [dosonarapi](https://github.com/apiaddicts/dosonarapi)  | Code analyzer for OpenAPI specifications |
-| [sonarasyncapi-rules] (https://github.com/apiaddicts/sonarasyncapi-rules) | Rules to analyze asyncapi specifications using SonarQube
-| [spectral-rules-asyncapi] (https://github.com/apiaddicts/spectral-rules-asyncapi) | Rules to analyze asyncapi specficiation using spectral
-| [asyncapi-generator] (https://github.com/asyncapi/generator) | Archetype generator to create microservices using asyncapis specifications
+| [sonarasyncapi-rules](https://github.com/apiaddicts/sonarasyncapi-rules) | Rules to analyze asyncapi specifications using SonarQube
+| [spectral-rules-asyncapi](https://github.com/apiaddicts/spectral-rules-asyncapi) | Rules to analyze asyncapi specficiation using spectral
+| [asyncapi-generator](https://github.com/asyncapi/generator) | Archetype generator to create microservices using asyncapis specifications
 | [redocly-cli](https://github.com/Redocly/redocly-cli)  | Redocly linter  |
 | [microcks](https://github.com/microcks/microcks)  | Mocks the APIs  |
 | [SonarQube](https://github.com/SonarSource/sonarqube)  | Validate the quality for APIs  |
@@ -117,9 +117,9 @@ There are a list of apitools that apiquality integrate:
 | [apigeelint](https://github.com/apigee/apigeelint)| lint the apiproxy|
 | [portman](https://github.com/apideck-libraries/portman) | create postman tests 
 | [check-json-schema](https://github.com/python-jsonschema/check-jsonschema) | check json schema for mcps
-| [openapi-mcp-generator] (https://github.com/harsha-iiiv/openapi-mcp-generator) | create MCPs using APIs
-| [mcp-interviewer] (https://github.com/microsoft/mcp-interviewer) | create tests for your mcps
-| [mcp-scan] (https://github.com/snyk/agent-scan) | create security tests for your mcps
+| [openapi-mcp-generator](https://github.com/harsha-iiiv/openapi-mcp-generator) | create MCPs using APIs
+| [mcp-interviewer](https://github.com/microsoft/mcp-interviewer) | create tests for your mcps
+| [mcp-scan](https://github.com/snyk/agent-scan) | create security tests for your mcps
 | [apimcpmarket](https://github.com/apiaddicts/apiportal-front) | apimarket opensource to show apis (openapi,asyncapi), mcps, dataapis (gaiax) |
 | [k6](https://testkube.io/) | execute test performance | (in roadmap)
 

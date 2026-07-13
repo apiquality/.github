@@ -43,7 +43,7 @@ There are a list of that apiquality stages by specificatio:
 
 | 🎁 Type  | Designer | Mocking | Contract tests | Microservices | Quality tests | Security tests |  📚 Comments
 |---|---|---|---|---|---|---|---|
-| [openapi](https://www.openapis.org/)  | Microcks Enricher, Redocly Linter, SonarQube, Openapi Diffs, Ref Resolver, Sonar2Spectral | Microcks | Openapi2Postman, Portman | visual api-database mapper, apigen.net, apigen.springboot, openapigenerator, openapigerator:jmeter | newman, jmeter | zap proxy
+| [openapi](https://www.openapis.org/)  | Microcks Enricher, Redocly Linter, SonarQube, Openapi Diffs, Ref Resolver, Sonar2Spectral | Microcks | Openapi2Postman, Portman,Openapi2Soapui | visual api-database mapper, apigen.net, apigen.springboot, apigen.python, openapigenerator, openapigerator:jmeter | newman, jmeter | zap proxy
 | [asyncapi](asyncapi.com)  | SonarQube | Microcks | |AsyncAPI Generator | Confluent importer
 
 
@@ -53,9 +53,11 @@ There are a list of LLMs supported that apiquality integrate:
    | 🎁 LLM  |Status | 📚 Comments
 |---|---|---|
 | [Gemini](https://ai.google.dev/gemini-api/docs/models)  | Integrated |
-| [Claude](https://platform.claude.com/docs/en/about-claude/models/overview) |Planned|
-| [OpenAI](https://developers.openai.com/api/docs/models) |Planned |
+| [Claude](https://platform.claude.com/docs/en/about-claude/models/overview) |Integrated|
+| [OpenAI](https://developers.openai.com/api/docs/models) |Integrated |
 | [Llama](https://www.llama.com/) |In Roadmap |
+| [Gemma](https://deepmind.google/models/gemma/) |In Roadmap |
+| [Mistral](https://mistral.ai/) | In Roadmap
 
 
 # 🛠️ Api Managers supported
@@ -72,8 +74,9 @@ There are a list of API Managers that apiquality integrate:
 | [AWS APi Gateway](https://aws.amazon.com/es/api-gateway/)  | Deployer, Initializer, Sync, Promoter  | No | No | No| No| No|No|
 | [Azure API Management](https://azure.microsoft.com/es-es/products/api-management)  | Deployer, Initializer, Sync, Promoter  | No | No | Yes | No|Yes|Yes
 | [ApacheSix](https://apisix.apache.org/)  | Initilizer, sync, promoter, deployer  | No | No | No | No| Yes|Yes|
-| [Kraken](https://www.krakend.io/)  | Custom stages  | No | No | No | No|No|No| In Roadmap
 | [Gravitee](https://www.gravitee.io/)  | Custom stages  | No | No | No | No|No|No| In Roadmap
+| [Kraken](https://www.krakend.io/)  | Custom stages  | No | No | No | No|No|No| In Roadmap
+
 
 
 # 🛠️ Repositories technology support
@@ -94,10 +97,14 @@ There are a list of apitools that apiquality integrate:
 |---|---|---|
 | [apigen.springboot](https://github.com/apiaddicts/apigen.springboot/)  | Generate an archetype of the springboot framework using the openapi file |
 | [apigen.net](https://github.com/apiaddicts/apigen.net/)  | Generate an archetype of the asp.net framework using the openapi file  |
+| [apigen.python](https://github.com/apiaddicts/apigen.python) | Generate an archetype of the python using the openapi file 
 | [openapi2postman](https://github.com/apiaddicts/openapi2postman)  | Creates automatic tests from Openapi 3.0 using postman format |
 | [openapi2soapui](https://github.com/apiaddicts/openapi2soapui)  | Generate a SoapUI project from an OpenAPI Specification |
 | [sonar-openapi](https://github.com/apiaddicts/sonar-openapi)  | Code analyzer for OpenAPI specifications  |
 | [dosonarapi](https://github.com/apiaddicts/dosonarapi)  | Code analyzer for OpenAPI specifications |
+| [sonarasyncapi-rules] (https://github.com/apiaddicts/sonarasyncapi-rules) | Rules to analyze asyncapi specifications using SonarQube
+| [spectral-rules-asyncapi] (https://github.com/apiaddicts/spectral-rules-asyncapi) | Rules to analyze asyncapi specficiation using spectral
+| [asyncapi-generator] (https://github.com/asyncapi/generator) | Archetype generator to create microservices using asyncapis specifications
 | [redocly-cli](https://github.com/Redocly/redocly-cli)  | Redocly linter  |
 | [microcks](https://github.com/microcks/microcks)  | Mocks the APIs  |
 | [SonarQube](https://github.com/SonarSource/sonarqube)  | Validate the quality for APIs  |
@@ -109,57 +116,90 @@ There are a list of apitools that apiquality integrate:
 | [openapige2apigee](https://github.com/apigee/openapi2apigee) | create a api proxy for openapi|
 | [apigeelint](https://github.com/apigee/apigeelint)| lint the apiproxy|
 | [portman](https://github.com/apideck-libraries/portman) | create postman tests 
+| [check-json-schema](https://github.com/python-jsonschema/check-jsonschema) | check json schema for mcps
+| [openapi-mcp-generator] (https://github.com/harsha-iiiv/openapi-mcp-generator) | create MCPs using APIs
+| [mcp-interviewer] (https://github.com/microsoft/mcp-interviewer) | create tests for your mcps
+| [mcp-scan] (https://github.com/snyk/agent-scan) | create security tests for your mcps
+
 
 ## Releases
 
-v2.29 Visual api-database mapper
-[2026-02-20]
+v2.37 Dynamic fields
+[2026-07-09]
 
-- Visual api-database-mapper (Beta)
-- Default API Briefing creation
-- Redesign of the safety scoring
-- Example API when you create a organization
-- New fields in the stress test execution list
-- New deck version creation for Kong API Manager
-- New deployment stage in the API Market portal
-- Recurring and planned steps
+- Create a dynamic fields
+- Add captcha to create account, data service provider and reset password
+- New stage for openapi2soapui tool to show the tests
 
-v2.28 API Report, AWS API GATEWAY AND AZURE API MANAGEMENT LIFE CYCLE
-[2026-02-12]
+v2.36 MCP briefing
+- Use Docker image in stages
+- wso2 4.6 in bitbucket
+- [MCP] MCP Generator with python
+- Parameterize URL and AI service model
+- Login SAML create logout page
+- [AI] In apiquality, suggest a error solution with AI
+- Add new fields in MCP catalog
+- Allow to create various style guide in one domain
+- Add configuration file to openapi generator
+- Create json report for the sonar results
+- Redesign mcp info
+- Redesign briefings
+- Review the screen api model design
+- Import MCP with scratch and schemas
 
-- API Report
-- AWS API Gateway-
-- Azure API Manager
-- Mapping of properties of the API tab
-- New calculation of test scoring
-- Results of functional tests in the scoring dashboard
-- Performance scoring
-- Default rules in the style guide
-- Bugs and pequeñas mejoras
+v2.35 APISix
+- Develop life-cycle APISix
+- API IA Generation - set API name and API template by default
+- Report Lint MCP
+- Change button visibility in sequential stages
+- Spectral in life cycle AsyncAPI and Confluent importer
+- Create global configuration for SAML
+- Scoring Microcks 
+- Domain customization
+- Create read-only permission by Token Allowlist for Gitlab
+- Deployer MCPs WSO2 4.6
+- OpenAPI Spectral rules update version 1.3.0
+- Sonar OpenAPI plugin core rulesset update 1.2.1
+- Sonar OpenAPI rulesset update 1.4.1
+
+v2.34 
+- [GitHub][Integración] Blocking Stage
+- WSO2 - Update Deploy, initializer and sync for WSO2 4.6 in gitlabci
+- WSO2 - Gateways configuration in Deployer
+- API Import - New organization parameter for default source
+- Standardization - API and model versioning format
+- Set openapi2postman & openapi generator to manual only
+- Update default API template default
+- UI - Remove "create account" button from login form
+
+v2.33
+- Import APIs - WSO2 APIs combo
+- MCPs execution history
+
+v2.32
+- Review of various MCPs
+- MCP life cycle
+- AsyncAPI lifecycle
+- Cleaning up and standardizing YAML
+- Order of the stages
+- Add Claude config to use as AI model
+- Add OpenAPI model config to use as AI model
+- Review the screen of AI Service
+- Unexpected auto-logout
+- Info apps and products consumed in the deployment version
+
 
 ## Roadmap
 The next releases are:
 
-### v5  IA (Jun 2026)
-- Create exporter MCP for Apigee, Wso2 4.6
-- Create a MCP Catalog
-- Create MCP Server life cycle
-- Create advanced security scanner for MCPs
-- Create advanced testing for MCPs
-- MCP Generation
-- MCP documentation
-- MCP try-out
-- SAML Configuration
-- IA Helper fix design
-- IA helper api report
-
 ### v6  Product and agents (Sept 2026)
 - Deploy API Portal with  Wso2, Azure APIM, TyK
 - Add product support for Wso2, Azure APIM, Apigee
-- Create exporter MCP for Azure APIM
+- Create exporter MCP for Azure APIM, APigee
 - Create resources repository and add to visual design and the model design
-- Create life cycle for Apache SIX
 - Add agent case testing and agent security testing
+- Add Micro scoring
+- Add Agent life cycles
   
 ### v7  API-led architecture (Dec 2026)
 - Create exporter MCP for IBM, TyK

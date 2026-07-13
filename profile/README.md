@@ -120,6 +120,8 @@ There are a list of apitools that apiquality integrate:
 | [openapi-mcp-generator] (https://github.com/harsha-iiiv/openapi-mcp-generator) | create MCPs using APIs
 | [mcp-interviewer] (https://github.com/microsoft/mcp-interviewer) | create tests for your mcps
 | [mcp-scan] (https://github.com/snyk/agent-scan) | create security tests for your mcps
+| [apimcpmarket](https://github.com/apiaddicts/apiportal-front) | apimarket opensource to show apis (openapi,asyncapi), mcps, dataapis (gaiax) |
+| [k6](https://testkube.io/) | execute test performance | (in roadmap)
 
 
 ## Releases
@@ -214,8 +216,7 @@ You can requests features by github and put bugs to resolve then in github
 
 ## Support
 There are a enterprise support 
-| [apimcpmarket](https://github.com/apiaddicts/apiportal-front) | apimarket opensource to show apis (openapi,asyncapi), mcps, dataapis (gaiax) |
-| [k6](https://testkube.io/) | execute test performance | (in roadmap)
+
 
 
 

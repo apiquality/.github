@@ -123,17 +123,39 @@ There are a list of apitools that apiquality integrate:
 | [apimcpmarket](https://github.com/apiaddicts/apiportal-front) | apimarket opensource to show apis (openapi,asyncapi), mcps, dataapis (gaiax) |
 | [k6](https://testkube.io/) | execute test performance | (in roadmap)
 
+# 🌟 Releases
 
-## Releases
+## New Features & Enhancements in the last release
 
-v2.37 Dynamic fields
+### 🖥️ Core Platform & User Experience
+* **Microservices Lifecycle Management:** Enhanced tools and tracking to manage the complete lifecycle of your microservices from creation to retirement.
+* **Friendly Role Names:** Added human-readable display names for the `dashboards.roles.modules.api-repo-files` security role to simplify access control administration.
+* **API Import Screen Polish:** Refined visual titles and copy on the API Import Screen for a more intuitive integration flow.
+* **Seamless Navigation:** Integrated a direct link to the latest release notes right within the application’s main menu.
+* **Enhanced Welcome Message:** Updated the welcome screen to include quick-access links to our support email and official social media channels.
+* **Automatic Access Control:** Implemented strict, automated routing rules to block unauthenticated (unlogged) users from accessing private application views.
+
+### ⚙️ Developer Experience & System Configuration
+* **Flexible Briefing Loads (YAML):** Implemented support for loading briefing paths dynamically using robust YAML configurations.
+* **Custom Rating Exclusions:** Added the ability to flag and exclude specific domains from rating calculations.
+* **MCP Catalog Filtering:** Introduced advanced search filters inside the MCP Catalog to enable faster discovery of components.
+* **Visual MCP Generator:** Launched an interactive visual generator interface, complete with a dynamic configuration form to simplify MCP creation.
+* **Automated MCP JSONs:** Streamlined workflows to automatically compile and generate `mcp.json` files directly from the visual generator.
+
+### 🛡️ Security, Quality & DevSecOps
+* **Automated Security Testing:** Integrated an automated pipeline step that executes OWASP ZAP Proxy via SoapRunner, enabling immediate security vulnerability scanning against your tests.
+* **SonarQube Code Quality:** Introduced a mandatory SonarQube quality and security gate stage tailored for MCP configurations.
+* **SaaS Token Control:** Improved token lifecycle controls for SaaS organizations that do not utilize Personal LLMs, ensuring strict tenant isolation.
+
+
+## v2.37 Dynamic fields
 [2026-07-09]
 
 - Create a dynamic fields
 - Add captcha to create account, data service provider and reset password
 - New stage for openapi2soapui tool to show the tests
 
-v2.36 MCP briefing
+## v2.36 MCP briefing
 - Use Docker image in stages
 - wso2 4.6 in bitbucket
 - [MCP] MCP Generator with python
@@ -149,47 +171,6 @@ v2.36 MCP briefing
 - Review the screen api model design
 - Import MCP with scratch and schemas
 
-v2.35 APISix
-- Develop life-cycle APISix
-- API IA Generation - set API name and API template by default
-- Report Lint MCP
-- Change button visibility in sequential stages
-- Spectral in life cycle AsyncAPI and Confluent importer
-- Create global configuration for SAML
-- Scoring Microcks 
-- Domain customization
-- Create read-only permission by Token Allowlist for Gitlab
-- Deployer MCPs WSO2 4.6
-- OpenAPI Spectral rules update version 1.3.0
-- Sonar OpenAPI plugin core rulesset update 1.2.1
-- Sonar OpenAPI rulesset update 1.4.1
-
-v2.34 
-- [GitHub][Integración] Blocking Stage
-- WSO2 - Update Deploy, initializer and sync for WSO2 4.6 in gitlabci
-- WSO2 - Gateways configuration in Deployer
-- API Import - New organization parameter for default source
-- Standardization - API and model versioning format
-- Set openapi2postman & openapi generator to manual only
-- Update default API template default
-- UI - Remove "create account" button from login form
-
-v2.33
-- Import APIs - WSO2 APIs combo
-- MCPs execution history
-
-v2.32
-- Review of various MCPs
-- MCP life cycle
-- AsyncAPI lifecycle
-- Cleaning up and standardizing YAML
-- Order of the stages
-- Add Claude config to use as AI model
-- Add OpenAPI model config to use as AI model
-- Review the screen of AI Service
-- Unexpected auto-logout
-- Info apps and products consumed in the deployment version
-
 
 ## Roadmap
 The next releases are:
@@ -200,7 +181,6 @@ The next releases are:
 - Create exporter MCP for Azure APIM, APigee
 - Create resources repository and add to visual design and the model design
 - Add agent case testing and agent security testing
-- Add Micro scoring
 - Add Agent life cycles
   
 ### v7  API-led architecture (Dec 2026)

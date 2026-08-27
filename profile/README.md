@@ -84,6 +84,7 @@ There are a list of API Managers that apiquality integrate:
 
 # 🛠️ AI Gateways supported
 | 🎁 Tool  | Stages | Import explorer  | Conector API Market |Domain config |EasyConfiguration|Arquitecture template| 📚 Comments
+|---|---|---|---|---|---|---|
 | [Wso2](https://wso2.com/) | Create MCP, Sync, Promoter, Deploy| No | No |No |Yes|Yes|Wso2 4.6
 | [Litellm](https://www.litellm.ai/ai-gateway) | No| No | No |No |No|No|No|In roadmap
 | [Apigee](https://apigee.google.com/) | No| No | No |No |No|No|No|In roadmap
@@ -93,6 +94,7 @@ There are a list of API Managers that apiquality integrate:
 
 # 🛠️ Platforms supported
 | 🎁 Tool  | Stages | Import explorer  | Conector API Market |Domain config |EasyConfiguration|Arquitecture template| 📚 Comments
+|---|---|---|---|---|---|---|
 | Kubernetes generic | Create MCP, Sync, Promoter, Deploy| No | No |No |Yes|Yes|Wso2 4.6
 | AKS | No| No | No |No |No|No|No|In roadmap
 | EKS | No| No | No |No |No|No|No|In roadmap

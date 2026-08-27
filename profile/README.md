@@ -96,7 +96,7 @@ There are a list of IA Gateways that apiquality integrate:
 # 🛠️ Platforms supported
 | 🎁 Tool  | Stages | Import explorer  | Conector API Market |Domain config |EasyConfiguration|Arquitecture template| 📚 Comments
 |---|---|---|---|---|---|---|--- 
-| Kubernetes generic | Create MCP, Sync, Promoter, Deploy| No | No |No |Yes|Yes|Wso2 4.6
+| Kubernetes generic | Create MCP, Sync, Promoter, Deploy| No | No |No |Yes|Yes|kubeconfig
 | AKS | No| No | No |No |No|No|In roadmap
 | EKS | No| No | No |No |No|No|In roadmap
 | GKS | No| No | No |No |No|No|n roadmap

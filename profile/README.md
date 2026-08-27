@@ -1,7 +1,8 @@
 ![](https://raw.githubusercontent.com/apiquality/.github/master/profile/assets/logo-apiquality-principal.png)
 
 # About APIQuality
-One platform to governance apis and people. The unique platorm apiops lowcode. Design your api first cycle as a visual design, implement apiops and get visual scoring and reports. Collaborate with all roles (api evangelist, api tester, api owner, api design, api security architect, api security tester.. in one tool)
+One platform to governance, control the quality and security for all resources in your organization (APIS, MCPS, MICROSERVICES, DATA SERVICES..). The unique platorm devops lowcode. Allow to control using scoring foreach resource agreggating the scoring by domain and organization.
+
 
 [![Twitter](https://img.shields.io/badge/Twitter-%23000000.svg?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/APIAddicts) 
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/sYCkW2bRZ)
@@ -10,7 +11,7 @@ One platform to governance apis and people. The unique platorm apiops lowcode. D
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/@APIAddictslmaoo)
 
 # Mission
-Get better quality and security APIs. Reduce to time to market and follow with devops filosophy.
+Get better quality and security for all reesources in your company (APIS, MCPS, MICROSERVICES, DATA SERVICES..). Reduce to time to market and follow with devops filosophy.
 
 # Live demo
 
@@ -19,16 +20,18 @@ You only must register in the web and get better quality and security APIs!!
 
 ## Main features
 
-- Design your style guides using and assistant
-- Design your apiops cycle using visual interface and implement in your favorite git platform (github, azure devops, gitlabci)
-- Define your api first cycle (requeriments API, design, mocking, generate tests, execute tests, generate microservices archetype, deploy in your favorite api manager (apigee, kong, wso2, azure api management, mulesoft or ibm api connect)
-- Collaborate with different roles in the api first cycle (api owner, api designer, api evangelist, api tester, api security tester, api security architect, api owner, api architect)..
-- Forgot the main maintenance for principal apitools market (microcks, sonar, redocly, apigeecli...)
+### APIS
+Design your api first cycle as a visual design, implement apiops and get visual scoring and reports. Collaborate with all roles (api evangelist, api tester, api owner, api design, api security architect, api security tester.. in one tool) and deploy in the developer portal.
+### MCPS
+Design your life cycles, control de quality and security, deploy in the infraestructura and IA Gateways, calculate scoring, generate mcp report, deploy in the developer portal..
+### MICROSERVICES
+Design your life cycle, control de quality and security, deploy in the infraestructura, calculate scoring, generate micro report, deploy in the developer portal..
+### DATA SERVICES
+Design your data service using APIS, create gaia-x schema compatibility, create the data service and the identity compatible with gaia-x, deploy in the developer portal..
 
 ## Showcases
 
 A sample of the organizations using in the wild:
-
 - Insurance companies
 - Bank companies
 - Public administration
@@ -37,15 +40,15 @@ A sample of the organizations using in the wild:
 - And more...
 
 
-
-# 🛠️ ApiFirst stages 
+# 🛠️ Resources stages 
 There are a list of that apiquality stages by specificatio:
 
 | 🎁 Type  | Designer | Mocking | Contract tests | Microservices | Quality tests | Security tests |  📚 Comments
 |---|---|---|---|---|---|---|---|
 | [openapi](https://www.openapis.org/)  | Microcks Enricher, Redocly Linter, SonarQube, Openapi Diffs, Ref Resolver, Sonar2Spectral | Microcks | Openapi2Postman, Portman,Openapi2Soapui | visual api-database mapper, apigen.net, apigen.springboot, apigen.python, openapigenerator, openapigerator:jmeter | newman, jmeter | zap proxy
 | [asyncapi](asyncapi.com)  | SonarQube | Microcks | |AsyncAPI Generator | Confluent importer
-
+| MCP | Lint MCP, Check JSON Schema, SonarQube ||Openapi MCP Generator typescript, openapi MCP generator Python |MCP Interviewer | MCP Scan | 
+| Microservices | SonarQube ||OpenAPI Generator, Apigen Python FastAPI, APIgen .net, apigen . springboot, apigen.python |MCP Interviewer | Dependency Check | Trivy License Scanner | Allow build docker and generate dns in cloudflare
 
 # 🛠️ LLMs supported
 There are a list of LLMs supported that apiquality integrate:
@@ -55,6 +58,8 @@ There are a list of LLMs supported that apiquality integrate:
 | [Gemini](https://ai.google.dev/gemini-api/docs/models)  | Integrated |
 | [Claude](https://platform.claude.com/docs/en/about-claude/models/overview) |Integrated|
 | [OpenAI](https://developers.openai.com/api/docs/models) |Integrated |
+| [Amazon Bedrock] (https://aws.amazon.com/es/bedrock) | Integrated |
+| [Custom openai compatibles] |In Roadmap |
 | [Llama](https://www.llama.com/) |In Roadmap |
 | [Gemma](https://deepmind.google/models/gemma/) |In Roadmap |
 | [Mistral](https://mistral.ai/) | In Roadmap
@@ -77,6 +82,22 @@ There are a list of API Managers that apiquality integrate:
 | [Gravitee](https://www.gravitee.io/)  | Custom stages  | No | No | No | No|No|No| In Roadmap
 | [Kraken](https://www.krakend.io/)  | Custom stages  | No | No | No | No|No|No| In Roadmap
 
+# 🛠️ AI Gateways supported
+| 🎁 Tool  | Stages | Import explorer  | Conector API Market |Domain config |EasyConfiguration|Arquitecture template| 📚 Comments
+| [Wso2](https://wso2.com/) | Create MCP, Sync, Promoter, Deploy| No | No |No |Yes|Yes|Wso2 4.6
+| [Litellm](https://www.litellm.ai/ai-gateway) | No| No | No |No |No|No|In roadmap
+| [Apigee](https://apigee.google.com/) | No| No | No |No |No|No|In roadmap
+| [Kong](https://konghq.com/)  | No| No | No |No |No|No|In roadmap 
+| [ApacheSix](https://apisix.apache.org/) | No| No | No |No |No|No|In roadmap 
+| [Azure AI Foundry](https://ai.azure.com/) | No| No | No |No |No|No|In roadmap 
+
+# 🛠️ Platforms supported
+| 🎁 Tool  | Stages | Import explorer  | Conector API Market |Domain config |EasyConfiguration|Arquitecture template| 📚 Comments
+| [Kubernetes generic] | Create MCP, Sync, Promoter, Deploy| No | No |No |Yes|Yes|Wso2 4.6
+| [AKS] | No| No | No |No |No|No|In roadmap
+| [EKS] | No| No | No |No |No|No|In roadmap
+| [GKS] | No| No | No |No |No|No|In roadmap
+| [Openshift] | No| No | No |No |No|No|In roadmap
 
 
 # 🛠️ Repositories technology support
@@ -148,28 +169,11 @@ There are a list of apitools that apiquality integrate:
 * **SaaS Token Control:** Improved token lifecycle controls for SaaS organizations that do not utilize Personal LLMs, ensuring strict tenant isolation.
 
 
-## v2.37 Dynamic fields
-[2026-07-09]
-
-- Create a dynamic fields
-- Add captcha to create account, data service provider and reset password
-- New stage for openapi2soapui tool to show the tests
-
-## v2.36 MCP briefing
-- Use Docker image in stages
-- wso2 4.6 in bitbucket
-- [MCP] MCP Generator with python
-- Parameterize URL and AI service model
-- Login SAML create logout page
-- [AI] In apiquality, suggest a error solution with AI
-- Add new fields in MCP catalog
-- Allow to create various style guide in one domain
-- Add configuration file to openapi generator
-- Create json report for the sonar results
-- Redesign mcp info
-- Redesign briefings
-- Review the screen api model design
-- Import MCP with scratch and schemas
+## v2.40-Define in model repositories [2026-07-26]
+- Model repository improvements
+- API template improvements
+- Sonar-Spectral rule fixes
+- Minor improvements and bug fixes
 
 
 ## Roadmap
@@ -177,8 +181,8 @@ The next releases are:
 
 ### v6  Product and agents (Sept 2026)
 - Deploy API Portal with  Wso2, Azure APIM, TyK
-- Add product support for Wso2, Azure APIM, Apigee
-- Create exporter MCP for Azure APIM, APigee
+- Add product support for Wso2, Azure APIM, Apigee and Kong
+- Create exporter MCP for Azure APIM, APigee, AWS Agent Core, LiteLlm
 - Create resources repository and add to visual design and the model design
 - Add agent case testing and agent security testing
 - Add Agent life cycles

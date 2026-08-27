@@ -53,7 +53,7 @@ There are a list of that apiquality stages by specificatio:
 # 🛠️ LLMs supported
 There are a list of LLMs supported that apiquality integrate:
 
-   | 🎁 LLM  |Status | 📚 Comments
+| 🎁 LLM  |Status | 📚 Comments
 |---|---|---|
 | [Gemini](https://ai.google.dev/gemini-api/docs/models)  | Integrated |
 | [Claude](https://platform.claude.com/docs/en/about-claude/models/overview) |Integrated|
@@ -83,22 +83,23 @@ There are a list of API Managers that apiquality integrate:
 | [Kraken](https://www.krakend.io/)  | Custom stages  | No | No | No | No|No|No| In Roadmap
 
 # 🛠️ AI Gateways supported
-| 🎁 Tool  | Stages | Import explorer  | Conector API Market |Domain config |EasyConfiguration|Arquitecture template| 📚 Comments
-|---|---|---|---|---|---|---|
+There are a list of IA Gateways that apiquality integrate:
+| 🎁 Tool  | Stages | Import explorer  | Conector API Market |Domain config |EasyConfiguration| Arquitecture template| 📚 Comments
+|---|---|---|---|---|---|---|---
 | [Wso2](https://wso2.com/) | Create MCP, Sync, Promoter, Deploy| No | No |No |Yes|Yes|Wso2 4.6
-| [Litellm](https://www.litellm.ai/ai-gateway) | No| No | No |No |No|No|No|In roadmap
-| [Apigee](https://apigee.google.com/) | No| No | No |No |No|No|No|In roadmap
-| [Kong](https://konghq.com/)  | No| No | No |No |No|No|No|In roadmap 
-| [ApacheSix](https://apisix.apache.org/) | No| No | No |No |No|No|No|In roadmap 
+| [Litellm](https://www.litellm.ai/ai-gateway) | No| No | No |No |No|No|In roadmap
+| [Apigee](https://apigee.google.com/) | No| No | No |No |No|No|In roadmap
+| [Kong](https://konghq.com/)  | No| No | No |No |No|No|In roadmap
+| [ApacheSix](https://apisix.apache.org/) | No| No | No |No |No|No|In roadmap
 | [Azure AI Foundry](https://ai.azure.com/) | No| No | No |No |No|No|In roadmap 
 
 # 🛠️ Platforms supported
 | 🎁 Tool  | Stages | Import explorer  | Conector API Market |Domain config |EasyConfiguration|Arquitecture template| 📚 Comments
-|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|--- 
 | Kubernetes generic | Create MCP, Sync, Promoter, Deploy| No | No |No |Yes|Yes|Wso2 4.6
-| AKS | No| No | No |No |No|No|No|In roadmap
-| EKS | No| No | No |No |No|No|No|In roadmap
-| GKS | No| No | No |No |No|No|No|n roadmap
+| AKS | No| No | No |No |No|No|In roadmap
+| EKS | No| No | No |No |No|No|In roadmap
+| GKS | No| No | No |No |No|No|n roadmap
 | Openshift | No| No | No |No |No|No|In roadmap
 
 

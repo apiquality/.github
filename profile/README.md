@@ -58,8 +58,8 @@ There are a list of LLMs supported that apiquality integrate:
 | [Gemini](https://ai.google.dev/gemini-api/docs/models)  | Integrated |
 | [Claude](https://platform.claude.com/docs/en/about-claude/models/overview) |Integrated|
 | [OpenAI](https://developers.openai.com/api/docs/models) |Integrated |
-| [Amazon Bedrock] (https://aws.amazon.com/es/bedrock) | Integrated |
-| [Custom openai compatibles] |In Roadmap |
+| [Amazon Bedrock](https://aws.amazon.com/es/bedrock) | Integrated |
+| Custom openai compatibles |In Roadmap |
 | [Llama](https://www.llama.com/) |In Roadmap |
 | [Gemma](https://deepmind.google/models/gemma/) |In Roadmap |
 | [Mistral](https://mistral.ai/) | In Roadmap
@@ -85,19 +85,19 @@ There are a list of API Managers that apiquality integrate:
 # 🛠️ AI Gateways supported
 | 🎁 Tool  | Stages | Import explorer  | Conector API Market |Domain config |EasyConfiguration|Arquitecture template| 📚 Comments
 | [Wso2](https://wso2.com/) | Create MCP, Sync, Promoter, Deploy| No | No |No |Yes|Yes|Wso2 4.6
-| [Litellm](https://www.litellm.ai/ai-gateway) | No| No | No |No |No|No|In roadmap
-| [Apigee](https://apigee.google.com/) | No| No | No |No |No|No|In roadmap
-| [Kong](https://konghq.com/)  | No| No | No |No |No|No|In roadmap 
-| [ApacheSix](https://apisix.apache.org/) | No| No | No |No |No|No|In roadmap 
+| [Litellm](https://www.litellm.ai/ai-gateway) | No| No | No |No |No|No|No|In roadmap
+| [Apigee](https://apigee.google.com/) | No| No | No |No |No|No|No|In roadmap
+| [Kong](https://konghq.com/)  | No| No | No |No |No|No|No|In roadmap 
+| [ApacheSix](https://apisix.apache.org/) | No| No | No |No |No|No|No|In roadmap 
 | [Azure AI Foundry](https://ai.azure.com/) | No| No | No |No |No|No|In roadmap 
 
 # 🛠️ Platforms supported
 | 🎁 Tool  | Stages | Import explorer  | Conector API Market |Domain config |EasyConfiguration|Arquitecture template| 📚 Comments
-| [Kubernetes generic] | Create MCP, Sync, Promoter, Deploy| No | No |No |Yes|Yes|Wso2 4.6
-| [AKS] | No| No | No |No |No|No|In roadmap
-| [EKS] | No| No | No |No |No|No|In roadmap
-| [GKS] | No| No | No |No |No|No|In roadmap
-| [Openshift] | No| No | No |No |No|No|In roadmap
+| Kubernetes generic | Create MCP, Sync, Promoter, Deploy| No | No |No |Yes|Yes|Wso2 4.6
+| AKS | No| No | No |No |No|No|No|In roadmap
+| EKS | No| No | No |No |No|No|No|In roadmap
+| GKS | No| No | No |No |No|No|No|n roadmap
+| Openshift | No| No | No |No |No|No|In roadmap
 
 
 # 🛠️ Repositories technology support
